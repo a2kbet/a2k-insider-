@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /index.html
+
+User-agent: GPTBot
+Disallow: /
+
+Sitemap: https://a2k.fun/sitemap.xml
