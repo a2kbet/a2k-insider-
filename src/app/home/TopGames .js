@@ -3,19 +3,43 @@
 import Image from "next/image";
 
 const topGames = [
-  { name: "Live Games", img: "/images/LIVE3.webp", link: "https://www.a2k.bet/livegame" },
-  { name: "Slot Games", img: "/images/GAME8.webp", link: "https://www.a2k.bet/slotgame" },
-  { name: "Sport Games", img: "/images/CRICKET.webp", link: "https://www.a2k.bet/sportgame" },
-  { name: "Cock Fighting", img: "/images/COCK.webp", link: "https://www.a2k.bet/cockfightinggame" },
-  { name: "Fishing", img: "/images/FISHING.webp", link: "https://www.a2k.bet/fishergame" },
-  { name: "Other Games", img: "/images/GAME2.webp", link: "https://www.a2k.bet/othergame" },
+  {
+    name: "Live Games",
+    img: "/images/LIVE3.webp",
+    link: "https://www.a2k.bet/livegame",
+  },
+  {
+    name: "Slot Games",
+    img: "/images/GAME8.webp",
+    link: "https://www.a2k.bet/slotgame",
+  },
+  {
+    name: "Sport Games",
+    img: "/images/CRICKET.webp",
+    link: "https://www.a2k.bet/sportgame",
+  },
+  {
+    name: "Cock Fighting",
+    img: "/images/COCK.webp",
+    link: "https://www.a2k.bet/cockfightinggame",
+  },
+  {
+    name: "Fishing",
+    img: "/images/FISHING.webp",
+    link: "https://www.a2k.bet/fishergame",
+  },
+  {
+    name: "Other Games",
+    img: "/images/GAME2.webp",
+    link: "https://www.a2k.bet/othergame",
+  },
 ];
 
 const TopGames = () => {
   return (
-    <div className="px-10 py-16 bg-[#1a1b1b] text-white">
+    <div className="px-10 py-16 bg-white text-black">
       {/* Heading */}
-      <h2 className="text-4xl sm:text-5xl md:text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-t from-[#FFF4C2] to-[#DAA520] drop-shadow-[0_2px_2px_rgba(0,0,0,0.4)] text-center mb-12">
+      <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold text-black text-center mb-12">
         Top Games Recommendations
       </h2>
 
@@ -27,7 +51,7 @@ const TopGames = () => {
             href={game.link}
             target="_blank"
             rel="noopener noreferrer"
-            className="rounded-xl shadow-lg overflow-hidden flex flex-col items-center hover:scale-105 transition-transform duration-300"
+            className="rounded-xl border border-black/10 overflow-hidden flex flex-col items-center hover:border-black transition"
           >
             {/* Game Image */}
             <div className="w-full">
@@ -41,8 +65,10 @@ const TopGames = () => {
             </div>
 
             {/* Game Info */}
-            <div className="py-3 flex flex-col items-center">
-              <h3 className="text-lg sm:text-xl font-semibold">{game.name}</h3>
+            <div className="py-4 flex flex-col items-center">
+              <h3 className="text-lg sm:text-xl font-semibold text-black">
+                {game.name}
+              </h3>
             </div>
           </a>
         ))}
@@ -54,7 +80,7 @@ const TopGames = () => {
           href="https://www.a2k.bet/promotion"
           target="_blank"
           rel="noopener noreferrer"
-          className="px-8 py-3 text-sm sm:text-base rounded-full bg-gradient-to-r from-[#DAA520] to-[#FFF4C2] text-black font-semibold hover:opacity-90 transition"
+          className="px-8 py-3 text-sm sm:text-base rounded-full border border-black bg-white text-black font-medium hover:bg-black hover:text-white transition"
         >
           LEARN MORE
         </a>

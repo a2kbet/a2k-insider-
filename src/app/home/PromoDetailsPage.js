@@ -50,26 +50,26 @@ const PromoDetailsPage = () => {
   ];
 
   return (
-    <div className="min-h-[90vh] bg-[#1a1b1b] px-4 py-8 text-white flex flex-col items-center">
-      <h2 className="text-4xl mb-10 md:text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-t from-[#FFF4C2] to-[#FFD700] text-center">
+    <div className="min-h-[90vh] bg-white px-4 py-12 text-black flex flex-col items-center">
+      <h2 className="text-4xl mb-10 md:text-6xl font-bold text-black text-center">
         Exclusive Promotions Awaits
       </h2>
 
-      <div className="grid text-center grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 max-w-8xl">
+      <div className="grid text-center grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 max-w-8xl">
         {promos.map((promo, index) => (
           <div
             key={index}
-            className="bg-gradient-to-tr from-[#1a1a1a] to-[#2a2a2a] rounded-xl p-4 border border-yellow-500/40 shadow-lg hover:scale-105 transition"
+            className="bg-white rounded-xl p-5 border border-black/10 hover:border-black transition"
           >
             <img
               src={promo.img}
               alt={promo.title}
               className="w-full h-50 object-cover rounded-lg mb-4"
             />
-            <h3 className="text-2xl md:text-3xl font-bold text-yellow-300 mb-4">
+            <h3 className="text-2xl md:text-3xl font-semibold text-black mb-3">
               {promo.title}
             </h3>
-            <p className="text-white/85 text-base md:text-lg leading-relaxed">
+            <p className="text-black/70 text-base md:text-lg leading-relaxed">
               {promo.desc}
             </p>
           </div>

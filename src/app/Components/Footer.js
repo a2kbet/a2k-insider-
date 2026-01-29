@@ -16,7 +16,6 @@ import {
   FaLifeRing,
 } from "react-icons/fa";
 
-// Logos for Game Brand Slider
 const logos = [
   {
     alt: "W9",
@@ -110,181 +109,162 @@ const logos = [
 
 const Footer = () => {
   return (
-    <footer className="bg-black text-white">
-      {/* Top Section */}
-      <div className="max-w-7xl mx-auto px-6 py-6 grid grid-cols-1 md:grid-cols-6 gap-8 border-b border-yellow-500/30">
-        {/* Logo & Tagline */}
+    <footer className="bg-white text-black border-t border-black/10">
+      <div className="max-w-7xl mx-auto px-6 py-10 grid grid-cols-1 md:grid-cols-6 gap-10 border-b border-black/10">
         <div className="flex flex-col items-start md:col-span-2">
           <img
-            src="/images/ACE2KING.webp"
-            alt="ACE2KING Logo"
-            className="h-20 object-contain w-auto mb-4"
+            src="/images/LOGO.png"
+            alt="A2K FUN Logo"
+            className="h-16 object-contain w-auto mb-4"
           />
 
-          <p className="text-white/85 text-center text-base md:text-lg leading-relaxed max-w-xl">
+          <p className="text-black/70 text-sm md:text-base leading-relaxed max-w-xl">
             Experience premium gaming with fairness, safety, and excitement.
           </p>
         </div>
 
-        {/* App Download */}
         <div className="w-full md:w-[80%]">
-          <h3 className="text-xl font-bold text-yellow-300 mb-3">
-            App Download
-          </h3>
-          <ul className="space-y-2 text-base text-white/90">
+          <h3 className="text-base font-semibold mb-3">App Download</h3>
+          <ul className="space-y-2 text-sm text-black/70">
             <a href="https://www.a2k.bet/download">
-              <li className="flex items-center gap-3 mb-2 hover:text-yellow-400 transition">
-                <FaMobileAlt size={18} /> iOS App
+              <li className="flex items-center gap-3 hover:text-black transition">
+                <FaMobileAlt size={16} /> iOS App
               </li>
             </a>
             <a href="https://www.a2k.bet/download">
-              <li className="flex items-center gap-3 hover:text-yellow-400 transition">
-                <FaMobileAlt size={18} /> Android App
+              <li className="flex items-center gap-3 hover:text-black transition">
+                <FaMobileAlt size={16} /> Android App
               </li>
             </a>
           </ul>
         </div>
 
-        {/* Information */}
         <div className="w-full md:w-[80%]">
-          <h3 className="text-xl font-bold text-yellow-300 mb-3">
-            Information
-          </h3>
-          <ul className="space-y-2 text-base text-white/90">
+          <h3 className="text-base font-semibold mb-3">Information</h3>
+          <ul className="space-y-2 text-sm text-black/70">
             <a href="https://www.a2k.bet/footerpage/aboutUs">
-              <li className="flex items-center gap-3 hover:text-yellow-400 transition">
-                <FaInfoCircle size={18} /> About Us
+              <li className="flex items-center gap-3 hover:text-black transition">
+                <FaInfoCircle size={16} /> About Us
               </li>
             </a>
             <a href="https://www.a2k.bet/footerpage/commonQuestion">
-              <li className="flex items-center gap-3 hover:text-yellow-400 transition">
-                <FaQuestionCircle size={18} /> FAQ
+              <li className="flex items-center gap-3 hover:text-black transition">
+                <FaQuestionCircle size={16} /> FAQ
               </li>
             </a>
             <a href="https://www.a2k.bet/footerpage/gamingRule">
-              <li className="flex items-center gap-3 hover:text-yellow-400 transition">
-                <FaGamepad size={18} /> General Rules
+              <li className="flex items-center gap-3 hover:text-black transition">
+                <FaGamepad size={16} /> General Rules
               </li>
             </a>
-            <li className="flex items-center gap-3 hover:text-yellow-400 transition">
-              <FaLifeRing size={18} /> Support
+            <li className="flex items-center gap-3 hover:text-black transition">
+              <FaLifeRing size={16} /> Support
             </li>
           </ul>
         </div>
 
-        {/* Games */}
         <div className="w-full md:w-[80%]">
-          <h3 className="text-xl font-bold text-yellow-300 mb-3">Games</h3>
-          <ul className="space-y-2 text-base text-white/90">
+          <h3 className="text-base font-semibold mb-3">Games</h3>
+          <ul className="space-y-2 text-sm text-black/70">
             <a href="https://www.a2k.bet/livegame">
-              <li className="hover:text-yellow-400 transition">Live Game</li>
+              <li className="hover:text-black transition">Live Game</li>
             </a>
             <a href="https://www.a2k.bet/slotgame">
-              <li className="hover:text-yellow-400 transition">Slot Game</li>
+              <li className="hover:text-black transition">Slot Game</li>
             </a>
             <a href="https://www.a2k.bet/sportgame">
-              <li className="hover:text-yellow-400 transition">Sport Game</li>
+              <li className="hover:text-black transition">Sport Game</li>
             </a>
             <a href="https://www.a2k.bet/fishergame">
-              <li className="hover:text-yellow-400 transition">Fishing Game</li>
+              <li className="hover:text-black transition">Fishing Game</li>
             </a>
             <a href="https://www.a2k.bet/cockfightinggame">
-              <li className="hover:text-yellow-400 transition">
-                Cock Fighting
-              </li>
+              <li className="hover:text-black transition">Cock Fighting</li>
             </a>
             <a href="https://www.a2k.bet/othergame">
-              <li className="hover:text-yellow-400 transition">Other Games</li>
+              <li className="hover:text-black transition">Other Games</li>
             </a>
           </ul>
         </div>
 
         <div className="w-full md:w-[80%]">
-          <h3 className="text-xl font-bold text-yellow-300 mb-3">Follow Us</h3>
-          <ul className=" text-base text-white/90">
+          <h3 className="text-base font-semibold mb-3">Follow Us</h3>
+          <ul className="text-sm text-black/70 space-y-2">
             <a href="https://www.instagram.com/a2k.bet?igsh=ZGR3cHlka2JhMzRt">
-              <li className="flex mb-2 items-center gap-3 hover:text-yellow-400 transition">
-                <FaInstagram className="text-pink-500" size={18} /> Instagram
+              <li className="flex items-center gap-3 hover:text-black transition">
+                <FaInstagram size={16} /> Instagram
               </li>
             </a>
             <a href="https://www.facebook.com/profile.php?id=100091618486203">
-              <li className="flex mb-2 items-center gap-3 hover:text-yellow-400 transition">
-                <FaFacebookF className="text-blue-500" size={18} /> Facebook
+              <li className="flex items-center gap-3 hover:text-black transition">
+                <FaFacebookF size={16} /> Facebook
               </li>
             </a>
             <a href="https://t.me/a2kbetcsk">
-              <li className="flex mb-2 items-center gap-3 hover:text-yellow-400 transition">
-                <FaTelegramPlane className="text-sky-400" size={18} /> Telegram
+              <li className="flex items-center gap-3 hover:text-black transition">
+                <FaTelegramPlane size={16} /> Telegram
               </li>
             </a>
             <a href="https://www.a2k.bet/">
-              <li className="flex mb-2 items-center gap-3 hover:text-yellow-400 transition">
-                <FaGlobe size={18} /> Website
+              <li className="flex items-center gap-3 hover:text-black transition">
+                <FaGlobe size={16} /> Website
               </li>
             </a>
           </ul>
         </div>
       </div>
 
-      {/* Licence & Responsible Gaming */}
-      <div className="max-w-7xl mx-auto px-6 py-6 grid md:grid-cols-2 gap-6 border-b border-yellow-500/30">
+      <div className="max-w-7xl mx-auto px-6 py-8 grid md:grid-cols-2 gap-8 border-b border-black/10">
         <div>
-          <h3 className="text-xl font-bold text-yellow-300 mb-3">
-            Gaming Licence
-          </h3>
+          <h3 className="text-base font-semibold mb-3">Gaming Licence</h3>
           <div className="flex gap-4">
             <img
               src="/images/LICENCE1.svg"
               alt="Gaming Licence 1"
-              className="h-16 p-2 object-contain rounded"
+              className="h-14 object-contain"
             />
             <img
               src="/images/LICENCE2.svg"
               alt="Gaming Licence 2"
-              className="h-16 p-2 object-contain rounded"
+              className="h-14 object-contain"
             />
           </div>
         </div>
+
         <div>
-          <h3 className="text-xl font-bold text-yellow-300 mb-3">
-            Responsible Gaming
-          </h3>
+          <h3 className="text-base font-semibold mb-3">Responsible Gaming</h3>
           <div className="flex gap-4">
             <img
               src="/images/RESPONSIBLE1.svg"
               alt="Responsible Gaming 1"
-              className="h-16 p-2 object-contain rounded"
+              className="h-14 object-contain"
             />
             <img
-              src="/images/RESPONSIBLE3.svg"
+              src="/images/RESPONSIBLE.png"
               alt="Responsible Gaming 3"
-              className="h-16 p-2 object-contain rounded"
+              className="h-14 object-contain"
             />
           </div>
         </div>
       </div>
 
-      {/* Company Info */}
-      <div className="max-w-7xl mx-auto px-6 py-4 text-white/90 text-base md:text-lg leading-relaxed border-b border-yellow-500/30">
+      <div className="max-w-7xl mx-auto px-6 py-6 text-black/70 text-sm md:text-base leading-relaxed border-b border-black/10">
         Headquartered in the business district of downtown Manila, OCMS
         Entertainment City is incorporated in the Philippines and holds a legal
         license for local government licenses. All games we launch must undergo
         rigorous review and monitoring by the Philippine Gaming Council, as well
         as through Macau and The GLI laboratory verification by the three-party
-        impartial verification unit must provide customers with a credit
-        guarantee and a fair and safe game environment as well as a refreshing
-        visual sensory experience.
+        impartial verification unit.
       </div>
 
-      {/* Game Brand Slider (inside Footer) */}
-      <div className="bg-black p-4 max-w-7xl mx-auto border-b border-yellow-500/30 flex justify-center">
+      <div className="bg-white p-4 max-w-7xl mx-auto border-b border-black/10 flex justify-center">
         <Swiper
           modules={[Autoplay]}
           slidesPerView={6}
           spaceBetween={20}
-          loop={true}
+          loop
           autoplay={{ delay: 0, disableOnInteraction: false }}
-          speed={4000} // smooth continuous scroll
+          speed={4000}
           breakpoints={{
             320: { slidesPerView: 3, spaceBetween: 10 },
             640: { slidesPerView: 4, spaceBetween: 15 },
@@ -297,15 +277,14 @@ const Footer = () => {
               <img
                 src={logo.src}
                 alt={logo.alt}
-                className="h-14 w-auto object-contain"
+                className="h-12 w-auto object-contain opacity-80"
               />
             </SwiperSlide>
           ))}
         </Swiper>
       </div>
 
-      {/* Bottom Bar */}
-      <div className="bg-black text-center py-3 text-sm md:text-base">
+      <div className="bg-white text-center py-4 text-sm text-black/60">
         Copyright © ACE2KING. All rights reserved.
       </div>
     </footer>
