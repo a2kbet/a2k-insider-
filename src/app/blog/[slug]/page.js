@@ -50,8 +50,8 @@ import Blog47 from "../content/Blog47";
 import Blog48 from "../content/Blog48";
 import Blog49 from "../content/Blog49";
 import Blog50 from "../content/Blog50";
-import Blog51 from './../content/Blog51';
-import Blog52 from './../content/Blog52';
+import Blog51 from "./../content/Blog51";
+import Blog52 from "./../content/Blog52";
 import Blog53 from "../content/Blog53";
 import Blog54 from "../content/Blog54";
 import Blog55 from "../content/Blog55";
@@ -108,13 +108,12 @@ const componentsMap = {
   "how-to-choose-safe-legitimate-online-casino": Blog48,
   "roulette-beginners-number-layout": Blog49,
   "psychology-of-folding-casino-strategy": Blog50,
-  "best-wbbl-betting-odds-match-predictions":Blog51,
-  "best-strategies-for-betting-on-knockout-matches-2026":Blog52,
-  "live-casino-madness-evo-sexy-ez-live":Blog53,
-  "desi-classics-to-live-dealers-teen-patti-andar-bahar-guide":Blog54,
-  "complete-cricket-betting-blueprint-wbbl-knockout-npl-predictions":Blog55,
-  "how-to-bet-on-npl-matches-expert-tips-todays-picks":Blog56
-
+  "best-wbbl-betting-odds-match-predictions": Blog51,
+  "best-strategies-for-betting-on-knockout-matches-2026": Blog52,
+  "live-casino-madness-evo-sexy-ez-live": Blog53,
+  "desi-classics-to-live-dealers-teen-patti-andar-bahar-guide": Blog54,
+  "complete-cricket-betting-blueprint-wbbl-knockout-npl-predictions": Blog55,
+  "how-to-bet-on-npl-matches-expert-tips-todays-picks": Blog56,
 };
 
 export async function generateStaticParams() {
@@ -227,7 +226,7 @@ export default async function BlogDetailPage({ params }) {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
 
-      <div className="min-h-screen bg-[#1a1b1b] text-white">
+      <div className="min-h-screen bg-white text-black">
         {/* Blog Banner */}
         <div className="relative w-screen left-1/2 right-1/2 -ml-[50.5vw] -mr-[50vw] h-[400px] md:h-[480px] overflow-hidden">
           <img
@@ -239,7 +238,7 @@ export default async function BlogDetailPage({ params }) {
 
         {/* Title */}
         <div className="max-w-7xl mx-auto mt-10 mb-7 text-center px-6 md:px-12">
-          <h1 className="text-4xl md:text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-t from-[#FFF4C2] to-[#DAA520]">
+          <h1 className="text-4xl md:text-5xl font-bold text-black">
             {blog.title}
           </h1>
         </div>
@@ -247,15 +246,16 @@ export default async function BlogDetailPage({ params }) {
         {/* Content + Suggested Reads */}
         <div className="w-full max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 px-6 md:px-12 py-5">
           {/* Blog Content */}
-          <article className="lg:col-span-8 space-y-10 text-lg md:text-xl text-gray-300 leading-relaxed">
+          <article className="lg:col-span-8 space-y-10 text-lg md:text-xl text-black/70 leading-relaxed">
             {BlogComponent ? <BlogComponent /> : <p>No content found</p>}
           </article>
 
-          {/* Suggested Reads - Reversed */}
+          {/* Suggested Reads */}
           <div className="lg:col-span-4 mt-8 space-y-6">
-            <h3 className="text-4xl font-bold text-[#FFF4C2] mb-7">
+            <h3 className="text-4xl font-bold text-black mb-7">
               Suggested Reads
             </h3>
+
             {[...blogData]
               .reverse()
               .filter((b) => b.slug !== slug)
@@ -264,17 +264,17 @@ export default async function BlogDetailPage({ params }) {
                 <a
                   key={s.slug}
                   href={`/blog/${s.slug}`}
-                  className="block p-4 bg-[#1e1e1e] rounded-xl hover:bg-[#2a2a2a] transition"
+                  className="block p-4 bg-white border border-black/10 rounded-xl hover:bg-black/5 transition"
                 >
                   <img
                     src={s.img}
                     alt={s.title}
-                    className="w-full h-36 object-cover rounded-lg mb-3"
+                    className="w-full h-36 object-cover rounded-lg mb-3 border border-black/10"
                   />
-                  <h4 className="text-lg font-semibold text-yellow-300">
+                  <h4 className="text-lg font-semibold text-black">
                     {s.title}
                   </h4>
-                  <p className="text-gray-400 text-sm mt-1 line-clamp-3">
+                  <p className="text-black/60 text-sm mt-1 line-clamp-3">
                     {s.description}
                   </p>
                 </a>

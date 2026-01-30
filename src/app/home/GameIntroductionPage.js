@@ -28,14 +28,9 @@ const GameIntroductionPage = () => {
   ];
 
   return (
-    <div
-      className="min-h-[85vh] py-12 px-4 sm:px-6 lg:px-12 flex flex-col items-center"
-      style={{
-        background: "linear-gradient(to bottom, #1a1b1b, #1a1b1b, #1a1a1a)",
-      }}
-    >
+    <div className="min-h-[85vh] py-12 px-4 sm:px-6 lg:px-12 flex flex-col items-center bg-white text-black">
       {/* Heading */}
-      <h2 className="text-4xl sm:text-5xl md:text-6xl mb-8 font-extrabold text-transparent bg-clip-text bg-gradient-to-t from-[#FFF4C2] to-[#FFD700] drop-shadow-[0_2px_2px_rgba(0,0,0,0.4)] text-center">
+      <h2 className="text-4xl sm:text-5xl md:text-6xl mb-8 font-bold text-black text-center">
         Explore Game Categories
       </h2>
 
@@ -44,9 +39,9 @@ const GameIntroductionPage = () => {
         {categories.map((category, idx) => (
           <div
             key={idx}
-            className="flex flex-col text-center bg-gradient-to-tr from-[#1c1c1e] via-[#2e2e30] to-[#1c1c1e] p-5 sm:p-6 rounded-2xl border border-yellow-500/50 shadow-[0_4px_12px_rgba(255,215,0,0.08)] transition-transform hover:scale-[1.03]"
+            className="flex flex-col text-center bg-white p-6 rounded-2xl border border-black/10 transition"
           >
-            <h3 className="text-2xl sm:text-3xl font-bold text-yellow-300 mb-4">
+            <h3 className="text-2xl sm:text-3xl font-semibold text-black mb-4">
               {category.title}
             </h3>
 
@@ -59,19 +54,19 @@ const GameIntroductionPage = () => {
                   alt={`${category.title} ${i}`}
                   width={300}
                   height={200}
-                  className="w-full h-32 sm:h-36 md:h-40 object-cover rounded-lg border border-yellow-200/20"
+                  className="w-full h-32 sm:h-36 md:h-40 object-cover rounded-lg border border-black/10"
                 />
               ))}
             </div>
 
-            <p className="text-white/85 text-base sm:text-lg leading-relaxed mb-5">
+            <p className="text-black/70 text-base sm:text-lg leading-relaxed mb-6">
               {category.description}
             </p>
 
             {/* Button */}
             <div className="w-full flex justify-center">
               <a href="https://www.a2k.bet/promotion?pid=topvip">
-                <button className="text-black text-base cursor-pointer sm:text-lg font-semibold px-6 sm:px-7 py-2 sm:py-3 rounded-full bg-gradient-to-r from-[#FFF4C2] via-[#FFD700] to-[#DAA520] hover:scale-105 transition duration-300 shadow-md">
+                <button className="text-white text-base sm:text-lg font-medium px-6 sm:px-7 py-2 sm:py-3 rounded-full bg-black border border-black hover:bg-white hover:text-black transition">
                   🎮 Explore More
                 </button>
               </a>

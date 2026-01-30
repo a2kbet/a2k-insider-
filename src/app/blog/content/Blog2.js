@@ -29,8 +29,8 @@ export default function Blog2() {
   ];
 
   return (
-    <div className="bg-[#1a1b1b] text-white w-full min-h-screen md:px-12 py-5">
-      <article className="max-w-6xl mx-auto space-y-12 text-gray-300 text-lg md:text-xl leading-relaxed">
+    <div className=" text-white w-full min-h-screen md:px-12 py-5">
+      <article className="max-w-6xl mx-auto space-y-12 text-black text-lg md:text-xl leading-relaxed">
         {/* Intro */}
         <p>
           Online casinos in India are growing rapidly, and one of the biggest
@@ -48,14 +48,14 @@ export default function Blog2() {
 
         {/* Why Choose UPI */}
         <section>
-          <h2 className="text-3xl font-bold mb-4 text-[#FFF4C2] border-b border-gray-700 pb-2">
+          <h2 className="text-3xl font-bold mb-4 text-black border-b border-gray-700 pb-2">
             Why Choose UPI for Online Casino Deposits?
           </h2>
           <p>
             UPI has completely changed how Indians make payments online. For
             casino players, it offers multiple benefits:
           </p>
-          <ul className="list-inside space-y-2 text-gray-300">
+          <ul className="list-inside space-y-2 text-black">
             <li>
               ✅ Instant Transactions – No waiting time; deposits reflect within
               seconds.
@@ -82,11 +82,11 @@ export default function Blog2() {
 
         {/* Step-by-Step Guide */}
         <section>
-          <h2 className="text-3xl font-bold mb-4 text-[#FFF4C2] border-b border-gray-700 pb-2">
+          <h2 className="text-3xl font-bold mb-4 text-black border-b border-gray-700 pb-2">
             Step-by-Step Guide: How to Deposit with UPI
           </h2>
           <p>Depositing money using UPI is simple. Follow these steps:</p>
-          <ol className="list-decimal list-inside space-y-2 text-gray-300">
+          <ol className="list-decimal list-inside space-y-2 text-black">
             <li>
               <strong>Choose a Casino Site That Accepts UPI</strong> – Select a
               trusted platform that offers UPI as a payment method. (👉 Soft
@@ -134,10 +134,10 @@ export default function Blog2() {
 
         {/* Top Casino Games */}
         <section>
-          <h2 className="text-3xl font-bold mb-4 text-[#FFF4C2] border-b border-gray-700 pb-2">
+          <h2 className="text-3xl font-bold mb-4 text-black border-b border-gray-700 pb-2">
             Top Casino Games You Can Play After UPI Deposit
           </h2>
-          <ul className=" list-inside space-y-2 text-gray-300">
+          <ul className=" list-inside space-y-2 text-black">
             <li>
               🎰 Online Slots – Simple, entertaining, and available in thousands
               of themes.
@@ -166,10 +166,10 @@ export default function Blog2() {
 
         {/* Benefits */}
         <section>
-          <h2 className="text-3xl font-bold mb-4 text-[#FFF4C2] border-b border-gray-700 pb-2">
+          <h2 className="text-3xl font-bold mb-4 text-black border-b border-gray-700 pb-2">
             Benefits of Depositing with UPI
           </h2>
-          <ul className="list-disc list-inside space-y-2 text-gray-300">
+          <ul className="list-disc list-inside space-y-2 text-black">
             <li>Speed – No delays in funding your gaming account.</li>
             <li>Security – Two-factor authentication keeps your money safe.</li>
             <li>Convenience – Works on mobile with all UPI apps.</li>
@@ -183,10 +183,10 @@ export default function Blog2() {
 
         {/* Tips */}
         <section>
-          <h2 className="text-3xl font-bold mb-4 text-[#FFF4C2] border-b border-gray-700 pb-2">
+          <h2 className="text-3xl font-bold mb-4 text-black border-b border-gray-700 pb-2">
             Tips for Smooth UPI Deposits
           </h2>
-          <ul className="list-disc list-inside space-y-2 text-gray-300">
+          <ul className="list-disc list-inside space-y-2 text-black">
             <li>
               Always ensure your UPI app is linked to your active bank account.
             </li>
@@ -200,7 +200,7 @@ export default function Blog2() {
 
         {/* Final Thoughts */}
         <section>
-          <h2 className="text-3xl font-bold mb-4 text-[#FFF4C2] border-b border-gray-700 pb-2">
+          <h2 className="text-3xl font-bold mb-4 text-black border-b border-gray-700 pb-2">
             Final Thoughts
           </h2>
           <p>
@@ -226,11 +226,11 @@ export default function Blog2() {
         </section>
 
         <section>
-          <h2 className="text-3xl font-bold mb-4 text-[#FFF4C2] border-b border-gray-700 pb-2">
+          <h2 className="text-3xl font-bold mb-4 text-black border-b border-gray-700 pb-2">
             FAQs
           </h2>
 
-          <div className="space-y-4 text-gray-300">
+          <div className="space-y-4 text-black">
             {faqs.map((faq, index) => (
               <div key={index} className="border-b border-gray-700 pb-2">
                 {/* Question */}
@@ -242,9 +242,9 @@ export default function Blog2() {
                 >
                   <strong>{faq.q}</strong>
                   {openIndex === index ? (
-                    <ChevronUp className="text-[#FFF4C2]" size={20} />
+                    <ChevronUp className="text-black" size={20} />
                   ) : (
-                    <ChevronDown className="text-[#FFF4C2]" size={20} />
+                    <ChevronDown className="text-black" size={20} />
                   )}
                 </button>
 

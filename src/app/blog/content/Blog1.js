@@ -62,7 +62,7 @@ export default function Blog1() {
 
       {/* Current Situation */}
       <section>
-        <h2 className="text-3xl font-bold mb-4 text-[#FFF4C2] border-b border-gray-700 pb-2">
+        <h2 className="text-3xl font-bold mb-4 text-black border-b border-gray-700 pb-2">
           Current Situation in 2025
         </h2>
         <p>
@@ -75,7 +75,7 @@ export default function Blog1() {
           This means Indian players can legally access international casino
           websites that hold trusted licenses such as:
         </p>
-        <ul className="list-disc list-inside space-y-1 text-gray-300">
+        <ul className="list-disc list-inside space-y-1 text-black">
           <li>Curacao License</li>
           <li>Malta Gaming Authority (MGA)</li>
           <li>UK Gambling Commission (UKGC)</li>
@@ -88,10 +88,10 @@ export default function Blog1() {
 
       {/* Why Indian Players Love Online Casinos */}
       <section>
-        <h2 className="text-3xl font-bold mb-4 text-[#FFF4C2] border-b border-gray-700 pb-2">
+        <h2 className="text-3xl font-bold mb-4 text-black border-b border-gray-700 pb-2">
           Why Indian Players Love Online Casinos in 2025
         </h2>
-        <ul className="list-disc list-inside space-y-2 text-gray-300">
+        <ul className="list-disc list-inside space-y-2 text-black">
           <li>
             <strong>Easy Deposits with UPI & Paytm</strong> – No need for
             complex payment setups. UPI has made deposits and withdrawals smooth
@@ -128,11 +128,11 @@ export default function Blog1() {
 
       {/* Is it Safe */}
       <section>
-        <h2 className="text-3xl font-bold mb-4 text-[#FFF4C2] border-b border-gray-700 pb-2">
+        <h2 className="text-3xl font-bold mb-4 text-black border-b border-gray-700 pb-2">
           Is It Safe for Indian Players?
         </h2>
         <p>Yes, absolutely. When you choose a licensed platform, you enjoy:</p>
-        <ul className="list-disc list-inside space-y-1 text-gray-300">
+        <ul className="list-disc list-inside space-y-1 text-black">
           <li>Encrypted transactions (especially via UPI)</li>
           <li>Verified payouts</li>
           <li>Responsible gaming features</li>
@@ -146,7 +146,7 @@ export default function Blog1() {
 
       {/* Future of Online Gambling */}
       <section>
-        <h2 className="text-3xl font-bold mb-4 text-[#FFF4C2] border-b border-gray-700 pb-2">
+        <h2 className="text-3xl font-bold mb-4 text-black border-b border-gray-700 pb-2">
           The Future of Online Gambling in India
         </h2>
         <p>
@@ -177,11 +177,11 @@ export default function Blog1() {
       </section>
 
       <section>
-        <h2 className="text-3xl font-bold mb-4 text-[#FFF4C2] border-b border-gray-700 pb-2">
+        <h2 className="text-3xl font-bold mb-4 text-black border-b border-gray-700 pb-2">
           FAQs
         </h2>
 
-        <div className="space-y-4 text-gray-300">
+        <div className="space-y-4 text-black">
           {faqs.map((faq, index) => (
             <div key={index} className="border-b border-gray-700 pb-2">
               {/* Question */}
@@ -191,9 +191,9 @@ export default function Blog1() {
               >
                 <strong>{faq.q}</strong>
                 {openIndex === index ? (
-                  <ChevronUp className="text-[#FFF4C2]" size={20} />
+                  <ChevronUp className="text-black" size={20} />
                 ) : (
-                  <ChevronDown className="text-[#FFF4C2]" size={20} />
+                  <ChevronDown className="text-black" size={20} />
                 )}
               </button>
 

@@ -56,16 +56,13 @@ const CasinoQA = () => {
   const toggleRight = (i) => setOpenRight(openRight === i ? null : i);
 
   const renderFaq = (item, isOpen, toggle, key) => (
-    <div
-      key={key} // ✅ Add a unique key here
-      className="bg-gradient-to-br from-[#1c1c1e] to-[#2e2e30] border border-yellow-500/30 rounded-xl p-6 shadow-lg"
-    >
+    <div key={key} className="bg-white border border-black/10 rounded-xl p-6">
       <div
         className="flex justify-between items-center cursor-pointer"
         onClick={toggle}
       >
-        <p className="text-lg font-semibold">{item.q}</p>
-        <span className="text-2xl font-bold text-yellow-400">
+        <p className="text-lg font-semibold text-black">{item.q}</p>
+        <span className="text-2xl font-bold text-black">
           {isOpen ? "-" : "+"}
         </span>
       </div>
@@ -74,26 +71,31 @@ const CasinoQA = () => {
           isOpen ? "max-h-40 mt-3" : "max-h-0"
         }`}
       >
-        <p className="text-gray-300 text-base leading-relaxed">{item.a}</p>
+        <p className="text-black/70 text-base leading-relaxed">{item.a}</p>
       </div>
     </div>
   );
 
   return (
-    <div className="bg-[#1a1b1b] text-white min-h-screen px-6 py-12 flex flex-col items-center">
-      <h2 className="text-4xl sm:text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-t from-[#FFF4C2] to-[#DAA520] mb-12">
+    <div className="bg-white text-black min-h-screen px-6 py-12 flex flex-col items-center">
+      <h2 className="text-4xl sm:text-5xl font-bold text-black mb-12 text-center">
         Casino Q&A: Your Questions Answered
       </h2>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl w-full">
         <div className="space-y-6">
           {leftFaqs.map((item, i) =>
-            renderFaq(item, openLeft === i, () => toggleLeft(i), `left-${i}`)
+            renderFaq(item, openLeft === i, () => toggleLeft(i), `left-${i}`),
           )}
         </div>
         <div className="space-y-6">
           {rightFaqs.map((item, i) =>
-            renderFaq(item, openRight === i, () => toggleRight(i), `right-${i}`)
+            renderFaq(
+              item,
+              openRight === i,
+              () => toggleRight(i),
+              `right-${i}`,
+            ),
           )}
         </div>
       </div>
