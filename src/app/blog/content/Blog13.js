@@ -29,7 +29,7 @@ export default function Blog13() {
   ];
 
   return (
-    <div className="space-y-5 text-gray-300 leading-relaxed text-lg md:text-xl">
+    <div className="space-y-5 text-black leading-relaxed text-lg md:text-xl">
       <p>
         For many players, timing feels just as important as strategy when it
         comes to casinos. While luck and randomness dominate the outcome, the
@@ -53,7 +53,7 @@ export default function Blog13() {
         most out of your favorite online platform.
       </p>
 
-      <h2 className="text-2xl font-semibold text-[#FFF4C2]">
+      <h2 className="text-2xl font-semibold text-black">
         Why Does Timing Matter in a Casino?
       </h2>
       <p>
@@ -76,10 +76,10 @@ export default function Blog13() {
         </li>
       </ul>
 
-      <h2 className="text-2xl font-semibold text-[#FFF4C2]">
+      <h2 className="text-2xl font-semibold text-black">
         The Best Times to Play in Physical Casinos
       </h2>
-      <h3 className="text-xl font-semibold text-[#FFF4C2]">
+      <h3 className="text-xl font-semibold text-black">
         Evenings &amp; Weekends – For High Energy
       </h3>
       <p>
@@ -87,14 +87,14 @@ export default function Blog13() {
         excitement, this is your time. The energy around you can boost
         motivation and enjoyment.
       </p>
-      <h3 className="text-xl font-semibold text-[#FFF4C2]">
+      <h3 className="text-xl font-semibold text-black">
         Afternoons – For Focused Play
       </h3>
       <p>
         Afternoons are generally calmer. If you prefer a relaxed setting without
         waiting for tables or machines, this is ideal.
       </p>
-      <h3 className="text-xl font-semibold text-[#FFF4C2]">
+      <h3 className="text-xl font-semibold text-black">
         Late Nights – For Promotions
       </h3>
       <p>
@@ -102,24 +102,24 @@ export default function Blog13() {
         you’re a night owl, you may benefit from unique offers.
       </p>
 
-      <h2 className="text-2xl font-semibold text-[#FFF4C2]">
+      <h2 className="text-2xl font-semibold text-black">
         The Best Times to Play on Online Platforms
       </h2>
-      <h3 className="text-xl font-semibold text-[#FFF4C2]">
+      <h3 className="text-xl font-semibold text-black">
         Morning Hours – Lower Competition
       </h3>
       <p>
         With fewer players logged in, your chances of joining tournaments or
         jackpot slots improve.
       </p>
-      <h3 className="text-xl font-semibold text-[#FFF4C2]">
+      <h3 className="text-xl font-semibold text-black">
         Evenings – More Tournaments &amp; Bonuses
       </h3>
       <p>
         Many platforms schedule live dealer games, poker events, and tournaments
         in the evening to align with global peak activity.
       </p>
-      <h3 className="text-xl font-semibold text-[#FFF4C2]">
+      <h3 className="text-xl font-semibold text-black">
         Holiday Seasons – Bigger Promotions
       </h3>
       <p>
@@ -139,7 +139,7 @@ export default function Blog13() {
         , where timing and promotions combine to elevate your experience.
       </p>
 
-      <h2 className="text-2xl font-semibold text-[#FFF4C2]">
+      <h2 className="text-2xl font-semibold text-black">
         Licensed Online Platforms: Why They Matter
       </h2>
       <p>
@@ -168,7 +168,7 @@ export default function Blog13() {
         </li>
       </ul>
 
-      <h2 className="text-2xl font-semibold text-[#FFF4C2]">
+      <h2 className="text-2xl font-semibold text-black">
         How to Decide the Best Time for You
       </h2>
       <ul className="list-disc ml-6 space-y-2">
@@ -184,7 +184,7 @@ export default function Blog13() {
         </li>
       </ul>
 
-      <h2 className="text-2xl font-semibold text-[#FFF4C2]">
+      <h2 className="text-2xl font-semibold text-black">
         The Psychology of Playing Time
       </h2>
       <p>
@@ -194,7 +194,7 @@ export default function Blog13() {
         your natural rhythm for the best experience.
       </p>
 
-      <h2 className="text-2xl font-semibold text-[#FFF4C2]">
+      <h2 className="text-2xl font-semibold text-black">
         Tips for Maximizing Your Casino Experience
       </h2>
       <ul className="list-disc ml-6 space-y-2">
@@ -224,7 +224,7 @@ export default function Blog13() {
         </li>
       </ul>
 
-      <h2 className="text-2xl font-semibold text-[#FFF4C2]">Conclusion</h2>
+      <h2 className="text-2xl font-semibold text-black">Conclusion</h2>
       <p>
         There isn’t one “universal best time” to play in a casino—it depends on
         your goals, style, and mood. Physical casinos give you a choice between
@@ -252,7 +252,7 @@ export default function Blog13() {
       </p>
 
       <section>
-        <h3 className="text-3xl font-bold text-[#FFF4C2] mt-10 mb-4">FAQs</h3>
+        <h3 className="text-3xl font-bold text-black mt-10 mb-4">FAQs</h3>
         <div className="space-y-6">
           {faqs.map((faq, index) => (
             <div
@@ -263,16 +263,16 @@ export default function Blog13() {
                 onClick={() => setOpenIndex(openIndex === index ? null : index)}
                 className="flex justify-between items-center w-full text-left focus:outline-none"
               >
-                <span className="font-semibold text-white">{faq.q}</span>
+                <span className="font-semibold text-black">{faq.q}</span>
                 {openIndex === index ? (
-                  <ChevronUp className="text-[#FFF4C2]" size={20} />
+                  <ChevronUp className="text-black" size={20} />
                 ) : (
-                  <ChevronDown className="text-[#FFF4C2]" size={20} />
+                  <ChevronDown className="text-black" size={20} />
                 )}
               </button>
 
               {openIndex === index && (
-                <div className="mt-2 text-gray-300">{faq.a}</div>
+                <div className="mt-2 text-black">{faq.a}</div>
               )}
             </div>
           ))}

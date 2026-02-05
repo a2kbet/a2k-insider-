@@ -29,7 +29,7 @@ export default function Blog14() {
   ];
 
   return (
-    <div className="space-y-5 text-gray-300 leading-relaxed text-lg md:text-xl">
+    <div className="space-y-5 text-black leading-relaxed text-lg md:text-xl">
       <p>
         In today’s fast-paced digital world, entertainment has shifted
         significantly toward the online space. Among the most engaging forms of
@@ -55,7 +55,7 @@ export default function Blog14() {
         way forward.
       </p>
 
-      <h2 className="text-2xl font-semibold text-[#FFF4C2]">
+      <h2 className="text-2xl font-semibold text-black">
         1. Unmatched Convenience
       </h2>
       <p>
@@ -86,7 +86,7 @@ export default function Blog14() {
         than traditional methods.
       </p>
 
-      <h2 className="text-2xl font-semibold text-[#FFF4C2]">
+      <h2 className="text-2xl font-semibold text-black">
         2. Secure and Licensed Experience
       </h2>
       <p>
@@ -116,7 +116,7 @@ export default function Blog14() {
         entertainment is backed by security, legality, and fairness.
       </p>
 
-      <h2 className="text-2xl font-semibold text-[#FFF4C2]">
+      <h2 className="text-2xl font-semibold text-black">
         3. Wide Variety of Options
       </h2>
       <p>
@@ -130,7 +130,7 @@ export default function Blog14() {
         never feel restricted. Variety keeps the experience fresh and engaging.
       </p>
 
-      <h2 className="text-2xl font-semibold text-[#FFF4C2]">
+      <h2 className="text-2xl font-semibold text-black">
         4. Bonuses and Rewards
       </h2>
       <ul className="list-disc ml-6 space-y-2">
@@ -143,7 +143,7 @@ export default function Blog14() {
         chances of winning.
       </p>
 
-      <h2 className="text-2xl font-semibold text-[#FFF4C2]">
+      <h2 className="text-2xl font-semibold text-black">
         5. Global Reach, Local Comfort
       </h2>
       <p>
@@ -153,7 +153,7 @@ export default function Blog14() {
         global and local at the same time.
       </p>
 
-      <h2 className="text-2xl font-semibold text-[#FFF4C2]">
+      <h2 className="text-2xl font-semibold text-black">
         6. Responsible and Controlled Entertainment
       </h2>
       <ul className="list-disc ml-6 space-y-2">
@@ -166,7 +166,7 @@ export default function Blog14() {
         lifestyle.
       </p>
 
-      <h2 className="text-2xl font-semibold text-[#FFF4C2]">
+      <h2 className="text-2xl font-semibold text-black">
         7. Community and Social Interaction
       </h2>
       <p>
@@ -176,7 +176,7 @@ export default function Blog14() {
         adds to the overall experience.
       </p>
 
-      <h2 className="text-2xl font-semibold text-[#FFF4C2]">
+      <h2 className="text-2xl font-semibold text-black">
         8. Real-Time Thrill and Transparency
       </h2>
       <p>
@@ -186,7 +186,7 @@ export default function Blog14() {
         you engaged.
       </p>
 
-      <h2 className="text-2xl font-semibold text-[#FFF4C2]">
+      <h2 className="text-2xl font-semibold text-black">
         9. Accessibility Across Devices
       </h2>
       <p>
@@ -195,7 +195,7 @@ export default function Blog14() {
         that you never miss out on the action, no matter where you are.
       </p>
 
-      <h2 className="text-2xl font-semibold text-[#FFF4C2]">
+      <h2 className="text-2xl font-semibold text-black">
         10. Future of Entertainment
       </h2>
       <p>
@@ -210,7 +210,7 @@ export default function Blog14() {
         innovation, safety, and fun.
       </p>
 
-      <h2 className="text-2xl font-semibold text-[#FFF4C2]">Conclusion</h2>
+      <h2 className="text-2xl font-semibold text-black">Conclusion</h2>
       <p>
         Placing a bet online comes with a wide range of benefits, from
         convenience and security to variety and innovation. Choosing a licensed
@@ -233,9 +233,9 @@ export default function Blog14() {
         to learn more.
       </p>
 
-      <h3 className="text-3xl font-bold text-[#FFF4C2] mt-10 mb-4">FAQs</h3>
+      <h3 className="text-3xl font-bold text-black mt-10 mb-4">FAQs</h3>
       <section>
-        <h3 className="text-3xl font-bold text-[#FFF4C2] mt-10 mb-4">FAQs</h3>
+        <h3 className="text-3xl font-bold text-black mt-10 mb-4">FAQs</h3>
         <div className="space-y-6">
           {faqs.map((faq, index) => (
             <div
@@ -246,16 +246,16 @@ export default function Blog14() {
                 onClick={() => setOpenIndex(openIndex === index ? null : index)}
                 className="flex justify-between items-center w-full text-left focus:outline-none"
               >
-                <span className="font-semibold text-white">{faq.q}</span>
+                <span className="font-semibold text-black">{faq.q}</span>
                 {openIndex === index ? (
-                  <ChevronUp className="text-[#FFF4C2]" size={20} />
+                  <ChevronUp className="text-black" size={20} />
                 ) : (
-                  <ChevronDown className="text-[#FFF4C2]" size={20} />
+                  <ChevronDown className="text-black" size={20} />
                 )}
               </button>
 
               {openIndex === index && (
-                <div className="mt-2 text-gray-300">{faq.a}</div>
+                <div className="mt-2 text-black">{faq.a}</div>
               )}
             </div>
           ))}

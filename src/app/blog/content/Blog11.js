@@ -29,7 +29,7 @@ export default function Blog11() {
   ];
 
   return (
-    <div className="space-y-5 text-gray-300 leading-relaxed text-lg md:text-xl">
+    <div className="space-y-5 text-black leading-relaxed text-lg md:text-xl">
       <p>
         If you’re exploring the thrilling world of slot games, you might wonder:
         What type of slots should I play? The answer depends on your style,
@@ -44,7 +44,7 @@ export default function Blog11() {
         ones match your personality and playstyle.
       </p>
 
-      <h3 className="text-2xl font-semibold text-[#FFF4C2]">
+      <h3 className="text-2xl font-semibold text-black">
         1. Classic Slots – Simple and Nostalgic
       </h3>
       <p>
@@ -61,7 +61,7 @@ export default function Blog11() {
         many complicated rules.
       </p>
 
-      <h3 className="text-2xl font-semibold text-[#FFF4C2]">
+      <h3 className="text-2xl font-semibold text-black">
         2. Video Slots – Modern Entertainment
       </h3>
       <p>
@@ -78,7 +78,7 @@ export default function Blog11() {
         that keep things fun.
       </p>
 
-      <h3 className="text-2xl font-semibold text-[#FFF4C2]">
+      <h3 className="text-2xl font-semibold text-black">
         3. Progressive Jackpot Slots – Dream Big
       </h3>
       <p>
@@ -94,7 +94,7 @@ export default function Blog11() {
         exciting.
       </p>
 
-      <h3 className="text-2xl font-semibold text-[#FFF4C2]">
+      <h3 className="text-2xl font-semibold text-black">
         4. Megaways Slots – Thousands of Winning Ways
       </h3>
       <p>
@@ -111,7 +111,7 @@ export default function Blog11() {
         alive.
       </p>
 
-      <h3 className="text-2xl font-semibold text-[#FFF4C2]">
+      <h3 className="text-2xl font-semibold text-black">
         5. Branded Slots – Entertainment Meets Gaming
       </h3>
       <p>
@@ -127,7 +127,7 @@ export default function Blog11() {
         engaging.
       </p>
 
-      <h3 className="text-2xl font-semibold text-[#FFF4C2]">
+      <h3 className="text-2xl font-semibold text-black">
         6. High Volatility vs. Low Volatility Slots
       </h3>
       <p>
@@ -143,7 +143,7 @@ export default function Blog11() {
         big-reward.
       </p>
 
-      <h3 className="text-2xl font-semibold text-[#FFF4C2]">
+      <h3 className="text-2xl font-semibold text-black">
         Tips to Choose the Right Slot for You
       </h3>
       <ul className="list-disc ml-6 space-y-2">
@@ -174,7 +174,7 @@ export default function Blog11() {
         </li>
       </ul>
 
-      <h3 className="text-2xl font-semibold text-[#FFF4C2]">Final Thoughts</h3>
+      <h3 className="text-2xl font-semibold text-black">Final Thoughts</h3>
       <p>
         The best slot game is the one that brings you the most fun and
         excitement. Whether you enjoy the simplicity of classic slots, the
@@ -197,7 +197,7 @@ export default function Blog11() {
       </p>
 
       <section>
-        <h3 className="text-3xl font-bold text-[#FFF4C2] mt-10 mb-4">FAQs</h3>
+        <h3 className="text-3xl font-bold text-black mt-10 mb-4">FAQs</h3>
         <div className="space-y-6">
           {faqs.map((faq, index) => (
             <div
@@ -208,16 +208,16 @@ export default function Blog11() {
                 onClick={() => setOpenIndex(openIndex === index ? null : index)}
                 className="flex justify-between items-center w-full text-left focus:outline-none"
               >
-                <span className="font-semibold text-white">{faq.q}</span>
+                <span className="font-semibold text-black">{faq.q}</span>
                 {openIndex === index ? (
-                  <ChevronUp className="text-[#FFF4C2]" size={20} />
+                  <ChevronUp className="text-black" size={20} />
                 ) : (
-                  <ChevronDown className="text-[#FFF4C2]" size={20} />
+                  <ChevronDown className="text-black" size={20} />
                 )}
               </button>
 
               {openIndex === index && (
-                <div className="mt-2 text-gray-300">{faq.a}</div>
+                <div className="mt-2 text-black">{faq.a}</div>
               )}
             </div>
           ))}

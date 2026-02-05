@@ -31,8 +31,8 @@ export default function Blog4() {
   return (
     <>
       {/* Blog Page Content */}
-      <div className="bg-[#1a1b1b] text-white w-full min-h-screen md:px-12 py-5">
-        <article className="max-w-6xl mx-auto space-y-12 text-gray-300 text-lg md:text-xl leading-relaxed">
+      <div className=" text-white w-full min-h-screen md:px-12 py-5">
+        <article className="max-w-6xl mx-auto space-y-12 text-black text-lg md:text-xl leading-relaxed">
           {/* Intro */}
           <p>
             Online casino gaming is growing fast in India, and more players are
@@ -49,14 +49,14 @@ export default function Blog4() {
 
           {/* Why Casino Licenses Matter */}
           <section>
-            <h2 className="text-3xl font-bold mb-4 text-[#FFF4C2] border-b border-gray-700 pb-2">
+            <h2 className="text-3xl font-bold mb-4 text-black border-b border-gray-700 pb-2">
               Why Casino Licenses Matter for Indian Players
             </h2>
             <p>
               A license is like a quality seal for an online casino. It proves
               that:
             </p>
-            <ul className="list-disc list-inside space-y-2 text-gray-300">
+            <ul className="list-disc list-inside space-y-2 text-black">
               <li>The casino follows fair gaming practices.</li>
               <li>Your money and personal data are securely protected.</li>
               <li>Games are regularly audited for fairness.</li>
@@ -71,20 +71,20 @@ export default function Blog4() {
 
           {/* Popular Casino Licenses */}
           <section>
-            <h2 className="text-3xl font-bold mb-4 text-[#FFF4C2] border-b border-gray-700 pb-2">
+            <h2 className="text-3xl font-bold mb-4 text-black border-b border-gray-700 pb-2">
               Popular Casino Licenses Valid for Indian Players
             </h2>
 
             {/* Curacao */}
             <div className="space-y-2">
-              <h3 className="text-2xl font-semibold text-yellow-300">
+              <h3 className="text-2xl font-semibold text-black">
                 1. Curacao eGaming License
               </h3>
               <p>
                 One of the oldest and most popular licenses. Many
                 Indian-friendly casinos operate under Curacao because it allows:
               </p>
-              <ul className="list-disc list-inside space-y-1 text-gray-300">
+              <ul className="list-disc list-inside space-y-1 text-black">
                 <li>Multiple currencies, including INR.</li>
                 <li>
                   Easy integration with UPI, Paytm, PhonePe, and other Indian
@@ -109,14 +109,14 @@ export default function Blog4() {
 
             {/* MGA */}
             <div className="space-y-2">
-              <h3 className="text-2xl font-semibold text-yellow-300">
+              <h3 className="text-2xl font-semibold text-black">
                 2. Malta Gaming Authority (MGA)
               </h3>
               <p>
                 The MGA license is known for strict regulations and top-notch
                 player safety. Casinos under MGA offer:
               </p>
-              <ul className="list-disc list-inside space-y-1 text-gray-300">
+              <ul className="list-disc list-inside space-y-1 text-black">
                 <li>High-level security and responsible gaming measures.</li>
                 <li>Smooth payment systems supporting INR deposits.</li>
                 <li>
@@ -127,7 +127,7 @@ export default function Blog4() {
 
             {/* UKGC */}
             <div className="space-y-2">
-              <h3 className="text-2xl font-semibold text-yellow-300">
+              <h3 className="text-2xl font-semibold text-black">
                 3. UK Gambling Commission (UKGC)
               </h3>
               <p>
@@ -135,7 +135,7 @@ export default function Blog4() {
                 globally. Even though it is based in the UK, many UKGC-licensed
                 casinos allow Indian players.
               </p>
-              <ul className="list-disc list-inside space-y-1 text-gray-300">
+              <ul className="list-disc list-inside space-y-1 text-black">
                 <li>Full transparency in payouts and gaming rules.</li>
                 <li>Top-tier software providers for casino games.</li>
                 <li>Strong customer support systems.</li>
@@ -144,14 +144,14 @@ export default function Blog4() {
 
             {/* Philippines */}
             <div className="space-y-2">
-              <h3 className="text-2xl font-semibold text-yellow-300">
+              <h3 className="text-2xl font-semibold text-black">
                 4. Philippines (PAGCOR & First Cagayan)
               </h3>
               <p>
                 For Indian players, licenses from the Philippines are becoming
                 more popular, especially in Asia.
               </p>
-              <ul className="list-disc list-inside space-y-1 text-gray-300">
+              <ul className="list-disc list-inside space-y-1 text-black">
                 <li>PAGCOR ensures fair games and smooth payouts.</li>
                 <li>
                   Perfect for players who love{" "}
@@ -171,10 +171,10 @@ export default function Blog4() {
 
           {/* Identify */}
           <section>
-            <h2 className="text-3xl font-bold mb-4 text-[#FFF4C2] border-b border-gray-700 pb-2">
+            <h2 className="text-3xl font-bold mb-4 text-black border-b border-gray-700 pb-2">
               🎯 How to Identify a Licensed Online Casino
             </h2>
-            <ul className="list-disc list-inside space-y-2 text-gray-300">
+            <ul className="list-disc list-inside space-y-2 text-black">
               <li>Scroll to the footer of the casino website.</li>
               <li>
                 Look for the license number and regulator logo (Curacao, MGA,
@@ -193,10 +193,10 @@ export default function Blog4() {
 
           {/* Preference */}
           <section>
-            <h2 className="text-3xl font-bold mb-4 text-[#FFF4C2] border-b border-gray-700 pb-2">
+            <h2 className="text-3xl font-bold mb-4 text-black border-b border-gray-700 pb-2">
               Why Indian Players Prefer Licensed Casinos
             </h2>
-            <ul className="list-disc list-inside space-y-2 text-gray-300">
+            <ul className="list-disc list-inside space-y-2 text-black">
               <li>
                 Secure deposits & withdrawals via UPI, Paytm, and NetBanking.
               </li>
@@ -214,7 +214,7 @@ export default function Blog4() {
 
           {/* Ready to Play */}
           <section>
-            <h2 className="text-3xl font-bold mb-4 text-[#FFF4C2] border-b border-gray-700 pb-2">
+            <h2 className="text-3xl font-bold mb-4 text-black border-b border-gray-700 pb-2">
               🔗 Ready to Play?
             </h2>
             <p>
@@ -239,11 +239,11 @@ export default function Blog4() {
           </section>
 
           <section>
-            <h2 className="text-3xl font-bold mb-4 text-[#FFF4C2] border-b border-gray-700 pb-2">
+            <h2 className="text-3xl font-bold mb-4 text-black border-b border-gray-700 pb-2">
               FAQs
             </h2>
 
-            <div className="space-y-4 text-gray-300">
+            <div className="space-y-4 text-black">
               {faqs.map((faq, index) => (
                 <div key={index} className="border-b border-gray-700 pb-2">
                   {/* Question */}

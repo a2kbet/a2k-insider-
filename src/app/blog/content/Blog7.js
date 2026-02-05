@@ -68,7 +68,7 @@ export default function Blog7() {
       </p>
 
       <section>
-        <h2 className="text-3xl font-bold mb-4 text-[#FFF4C2] border-b border-gray-700 pb-2">
+        <h2 className="text-3xl font-bold mb-4 text-black] border-b border-gray-700 pb-2">
           1. Create a Strong and Secure Account
         </h2>
         <p>
@@ -94,7 +94,7 @@ export default function Blog7() {
       </section>
 
       <section>
-        <h2 className="text-3xl font-bold mb-4 text-[#FFF4C2] border-b border-gray-700 pb-2">
+        <h2 className="text-3xl font-bold mb-4 text-black] border-b border-gray-700 pb-2">
           2. Verify Your Details Early
         </h2>
         <p>
@@ -102,21 +102,21 @@ export default function Blog7() {
           your documents early makes deposits and withdrawals faster later on.
           It also unlocks special bonuses.
         </p>
-        <ul className="list-disc list-inside space-y-1 text-gray-300">
+        <ul className="list-disc list-inside space-y-1 text-black">
           <li>Keep a copy of your ID handy.</li>
           <li>Complete email and phone verification right away.</li>
         </ul>
       </section>
 
       <section>
-        <h2 className="text-3xl font-bold mb-4 text-[#FFF4C2] border-b border-gray-700 pb-2">
+        <h2 className="text-3xl font-bold mb-4 text-black] border-b border-gray-700 pb-2">
           3. Organize Your Payment Methods
         </h2>
         <p>
           Managing your payment options wisely ensures instant deposits and
           smooth withdrawals.
         </p>
-        <ul className="list-disc list-inside space-y-1 text-gray-300">
+        <ul className="list-disc list-inside space-y-1 text-black">
           <li>Link one or two reliable payment methods.</li>
           <li>Track your deposit history to stay organized.</li>
           <li>Always double-check transaction limits before playing.</li>
@@ -124,7 +124,7 @@ export default function Blog7() {
       </section>
 
       <section>
-        <h2 className="text-3xl font-bold mb-4 text-[#FFF4C2] border-b border-gray-700 pb-2">
+        <h2 className="text-3xl font-bold mb-4 text-black] border-b border-gray-700 pb-2">
           4. Set Deposit Preferences
         </h2>
         <p>
@@ -136,14 +136,14 @@ export default function Blog7() {
       </section>
 
       <section>
-        <h2 className="text-3xl font-bold mb-4 text-[#FFF4C2] border-b border-gray-700 pb-2">
+        <h2 className="text-3xl font-bold mb-4 text-black] border-b border-gray-700 pb-2">
           5. Keep Track of Your Bonuses and Rewards
         </h2>
         <p>
           Bonuses are a great way to enhance your gaming. From welcome bonuses
           to free spins, always check the promotions section.
         </p>
-        <ul className="list-disc list-inside space-y-1 text-gray-300">
+        <ul className="list-disc list-inside space-y-1 text-black">
           <li>Note expiry dates of bonuses.</li>
           <li>Read simple bonus terms for maximum benefits.</li>
         </ul>
@@ -162,10 +162,10 @@ export default function Blog7() {
       </section>
 
       <section>
-        <h2 className="text-3xl font-bold mb-4 text-[#FFF4C2] border-b border-gray-700 pb-2">
+        <h2 className="text-3xl font-bold mb-4 text-black] border-b border-gray-700 pb-2">
           6. Explore Account Settings Regularly
         </h2>
-        <ul className="list-disc list-inside space-y-1 text-gray-300">
+        <ul className="list-disc list-inside space-y-1 text-black">
           <li>Update your personal info if needed.</li>
           <li>Activate notifications for new offers.</li>
           <li>Save favorite games for quicker access.</li>
@@ -173,7 +173,7 @@ export default function Blog7() {
       </section>
 
       <section>
-        <h2 className="text-3xl font-bold mb-4 text-[#FFF4C2] border-b border-gray-700 pb-2">
+        <h2 className="text-3xl font-bold mb-4 text-black] border-b border-gray-700 pb-2">
           7. Use Mobile-Friendly Access
         </h2>
         <p>
@@ -184,14 +184,14 @@ export default function Blog7() {
       </section>
 
       <section>
-        <h2 className="text-3xl font-bold mb-4 text-[#FFF4C2] border-b border-gray-700 pb-2">
+        <h2 className="text-3xl font-bold mb-4 text-black] border-b border-gray-700 pb-2">
           8. Monitor Transaction History
         </h2>
         <p>
           Transaction history is like your personal casino diary. Checking it
           frequently helps you:
         </p>
-        <ul className="list-disc list-inside space-y-1 text-gray-300">
+        <ul className="list-disc list-inside space-y-1 text-black">
           <li>See how much you’ve deposited and withdrawn.</li>
           <li>Track bonus credits and rewards.</li>
           <li>Plan future gameplay based on past activity.</li>
@@ -199,14 +199,14 @@ export default function Blog7() {
       </section>
 
       <section>
-        <h2 className="text-3xl font-bold mb-4 text-[#FFF4C2] border-b border-gray-700 pb-2">
+        <h2 className="text-3xl font-bold mb-4 text-black] border-b border-gray-700 pb-2">
           9. Contact Support Whenever Needed
         </h2>
         <p>
           Casino platforms offer 24/7 live chat and email support. If you ever
           face a query, support teams are ready to assist you with:
         </p>
-        <ul className="list-disc list-inside space-y-1 text-gray-300">
+        <ul className="list-disc list-inside space-y-1 text-black">
           <li>Account updates</li>
           <li>Bonus clarifications</li>
           <li>Payment issues</li>
@@ -214,7 +214,7 @@ export default function Blog7() {
       </section>
 
       <section>
-        <h2 className="text-3xl font-bold mb-4 text-[#FFF4C2] border-b border-gray-700 pb-2">
+        <h2 className="text-3xl font-bold mb-4 text-black] border-b border-gray-700 pb-2">
           10. Keep Your Account Fun and Rewarding
         </h2>
         <p>
@@ -225,7 +225,7 @@ export default function Blog7() {
       </section>
 
       <section>
-        <h2 className="text-3xl font-bold mb-4 text-[#FFF4C2] border-b border-gray-700 pb-2">
+        <h2 className="text-3xl font-bold mb-4 text-black] border-b border-gray-700 pb-2">
           Conclusion
         </h2>
         <p>
@@ -246,8 +246,8 @@ export default function Blog7() {
         </p>
       </section>
 
-      <div className="mt-16 text-gray-300">
-        <h2 className="text-3xl font-bold text-[#FFF4C2] mb-6">FAQs</h2>
+      <div className="mt-16 text-black">
+        <h2 className="text-3xl font-bold text-black] mb-6">FAQs</h2>
 
         <div className="space-y-6 text-lg leading-relaxed">
           {faqs.map((faq, index) => (
@@ -258,9 +258,9 @@ export default function Blog7() {
               >
                 <strong>{faq.q}</strong>
                 {openIndex === index ? (
-                  <ChevronUp className="text-[#FFF4C2]" size={20} />
+                  <ChevronUp className="text-black]" size={20} />
                 ) : (
-                  <ChevronDown className="text-[#FFF4C2]" size={20} />
+                  <ChevronDown className="text-black]" size={20} />
                 )}
               </button>
 

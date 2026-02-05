@@ -62,8 +62,8 @@ export default function Blog5() {
 
   return (
     <>
-      <div className="bg-[#1a1b1b] text-white w-full min-h-screen md:px-12 py-5">
-        <article className="max-w-6xl mx-auto space-y-12 text-gray-300 text-lg md:text-xl leading-relaxed">
+      <div className=" text-white w-full min-h-screen md:px-12 py-5">
+        <article className="max-w-6xl mx-auto space-y-12 text-black text-lg md:text-xl leading-relaxed">
           {/* Intro */}
           <p>
             Online casinos have become a favorite source of entertainment for
@@ -76,11 +76,11 @@ export default function Blog5() {
 
           {/* Why Licensing Matters */}
           <section>
-            <h2 className="text-3xl font-bold mb-4 text-[#FFF4C2] border-b border-gray-700 pb-2">
+            <h2 className="text-3xl font-bold mb-4 text-black border-b border-gray-700 pb-2">
               Why Licensing Matters in Online Casinos
             </h2>
             <p>When you play at a licensed online casino, you’re assured of:</p>
-            <ul className="list-disc list-inside space-y-2 text-gray-300">
+            <ul className="list-disc list-inside space-y-2 text-black">
               <li>
                 Fair Gameplay – Licensed casinos use certified Random Number
                 Generators (RNGs).
@@ -100,7 +100,7 @@ export default function Blog5() {
             <p>
               For Indian players, the valid licenses to look out for include:
             </p>
-            <ul className="list-disc list-inside space-y-2 text-gray-300">
+            <ul className="list-disc list-inside space-y-2 text-black">
               <li>Malta Gaming Authority (MGA)</li>
               <li>Curacao eGaming License</li>
               <li>UK Gambling Commission (UKGC)</li>
@@ -114,7 +114,7 @@ export default function Blog5() {
 
           {/* Choosing an Online Casino */}
           <section>
-            <h2 className="text-3xl font-bold mb-4 text-[#FFF4C2] border-b border-gray-700 pb-2">
+            <h2 className="text-3xl font-bold mb-4 text-black border-b border-gray-700 pb-2">
               Choosing an Online Casino for Indian Players
             </h2>
             <div className="space-y-4">
@@ -148,7 +148,7 @@ export default function Blog5() {
                 For Indian users, safe payment options are crucial. Reliable
                 casinos offer:
               </p>
-              <ul className="list-disc list-inside space-y-1 text-gray-300">
+              <ul className="list-disc list-inside space-y-1 text-black">
                 <li>UPI</li>
                 <li>Paytm</li>
                 <li>PhonePe</li>
@@ -179,10 +179,10 @@ export default function Blog5() {
 
           {/* Key Features */}
           <section>
-            <h2 className="text-3xl font-bold mb-4 text-[#FFF4C2] border-b border-gray-700 pb-2">
+            <h2 className="text-3xl font-bold mb-4 text-black border-b border-gray-700 pb-2">
               Key Features of a Safe Casino
             </h2>
-            <ul className="list-disc list-inside space-y-2 text-gray-300">
+            <ul className="list-disc list-inside space-y-2 text-black">
               <li>SSL Encryption for transaction safety</li>
               <li>Transparency in Terms & Conditions</li>
               <li>24/7 Customer Support via chat, email, or WhatsApp</li>
@@ -198,10 +198,10 @@ export default function Blog5() {
 
           {/* Benefits */}
           <section>
-            <h2 className="text-3xl font-bold mb-4 text-[#FFF4C2] border-b border-gray-700 pb-2">
+            <h2 className="text-3xl font-bold mb-4 text-black border-b border-gray-700 pb-2">
               Benefits of Playing at Licensed Casinos
             </h2>
-            <ul className="list-disc list-inside space-y-2 text-gray-300">
+            <ul className="list-disc list-inside space-y-2 text-black">
               <li>
                 Peace of Mind – No worries about fraud or unfair practices.
               </li>
@@ -234,10 +234,10 @@ export default function Blog5() {
 
           {/* Steps to Start Playing */}
           <section>
-            <h2 className="text-3xl font-bold mb-4 text-[#FFF4C2] border-b border-gray-700 pb-2">
+            <h2 className="text-3xl font-bold mb-4 text-black border-b border-gray-700 pb-2">
               Steps to Start Playing at a Licensed Online Casino
             </h2>
-            <ol className="list-decimal list-inside space-y-2 text-gray-300">
+            <ol className="list-decimal list-inside space-y-2 text-black">
               <li>
                 Visit a Licensed Casino Site – Example:{" "}
                 <a
@@ -268,11 +268,11 @@ export default function Blog5() {
           </section>
 
           <section>
-            <h2 className="text-3xl font-bold mb-4 text-[#FFF4C2] border-b border-gray-700 pb-2">
+            <h2 className="text-3xl font-bold mb-4 text-black border-b border-gray-700 pb-2">
               FAQs
             </h2>
 
-            <div className="space-y-4 text-gray-300">
+            <div className="space-y-4 text-black">
               {faqs.map((faq, index) => (
                 <div key={index} className="border-b border-gray-700 pb-2">
                   {/* Question */}
@@ -284,9 +284,9 @@ export default function Blog5() {
                   >
                     <strong>{faq.q}</strong>
                     {openIndex === index ? (
-                      <ChevronUp className="text-[#FFF4C2]" size={20} />
+                      <ChevronUp className="text-black" size={20} />
                     ) : (
-                      <ChevronDown className="text-[#FFF4C2]" size={20} />
+                      <ChevronDown className="text-black" size={20} />
                     )}
                   </button>
 

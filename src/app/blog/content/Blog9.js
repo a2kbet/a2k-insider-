@@ -8,7 +8,7 @@ export default function Blog9() {
   const faqs = [
     {
       q: (
-        <p className="font-semibold text-white">
+        <p className="font-semibold text-black">
           1. Why is account verification necessary in online casinos?
         </p>
       ),
@@ -21,7 +21,7 @@ export default function Blog9() {
     },
     {
       q: (
-        <p className="font-semibold text-white">
+        <p className="font-semibold text-black">
           2. How long does the verification process take?
         </p>
       ),
@@ -34,7 +34,7 @@ export default function Blog9() {
     },
     {
       q: (
-        <p className="font-semibold text-white">
+        <p className="font-semibold text-black">
           3. Can I deposit money before verification?
         </p>
       ),
@@ -47,7 +47,7 @@ export default function Blog9() {
     },
     {
       q: (
-        <p className="font-semibold text-white">
+        <p className="font-semibold text-black">
           4. What documents are required for KYC?
         </p>
       ),
@@ -60,7 +60,7 @@ export default function Blog9() {
     },
     {
       q: (
-        <p className="font-semibold text-white">
+        <p className="font-semibold text-black">
           5. Is my personal data safe during verification?
         </p>
       ),
@@ -73,7 +73,7 @@ export default function Blog9() {
     },
   ];
   return (
-    <div className="space-y-5 text-gray-300 leading-relaxed text-lg md:text-xl">
+    <div className="space-y-5 text-black leading-relaxed text-lg md:text-xl">
       <p>
         Online casinos are becoming a favorite destination for gaming
         enthusiasts. Whether you are a beginner or a seasoned player, creating
@@ -88,7 +88,7 @@ export default function Blog9() {
         some helpful tips to make the process quick and smooth.
       </p>
 
-      <h3 className="text-2xl font-semibold text-[#FFF4C2]">
+      <h3 className="text-2xl font-semibold text-black">
         Step 1: Choose a Trusted Online Casino
       </h3>
       <p>
@@ -102,7 +102,7 @@ export default function Blog9() {
         offers for new players. This ensures you start with extra value.
       </p>
 
-      <h3 className="text-2xl font-semibold text-[#FFF4C2]">
+      <h3 className="text-2xl font-semibold text-black">
         Step 2: Start the Registration Process
       </h3>
       <p>
@@ -140,7 +140,7 @@ export default function Blog9() {
         withdrawals.
       </p>
 
-      <h3 className="text-2xl font-semibold text-[#FFF4C2]">
+      <h3 className="text-2xl font-semibold text-black">
         Step 3: Verify Your Email and Mobile Number
       </h3>
       <p>
@@ -155,7 +155,7 @@ export default function Blog9() {
         withdrawal approvals.
       </p>
 
-      <h3 className="text-2xl font-semibold text-[#FFF4C2]">
+      <h3 className="text-2xl font-semibold text-black">
         Step 4: Complete the KYC (Know Your Customer) Process
       </h3>
       <p>
@@ -180,7 +180,7 @@ export default function Blog9() {
         restrictions.
       </p>
 
-      <h3 className="text-2xl font-semibold text-[#FFF4C2]">
+      <h3 className="text-2xl font-semibold text-black">
         Step 5: Make Your First Deposit
       </h3>
       <p>
@@ -203,7 +203,7 @@ export default function Blog9() {
         today!
       </p>
 
-      <h3 className="text-2xl font-semibold text-[#FFF4C2]">
+      <h3 className="text-2xl font-semibold text-black">
         Benefits of Registering and Verifying Your Account
       </h3>
       <ul className="list-disc ml-6 space-y-2">
@@ -229,7 +229,7 @@ export default function Blog9() {
         </li>
       </ul>
 
-      <h3 className="text-2xl font-semibold text-[#FFF4C2]">
+      <h3 className="text-2xl font-semibold text-black">
         Common Issues and How to Avoid Them
       </h3>
       <ul className="list-disc ml-6 space-y-2">
@@ -251,7 +251,7 @@ export default function Blog9() {
         enjoy uninterrupted gaming.
       </p>
 
-      <h3 className="text-2xl font-semibold text-[#FFF4C2]">Conclusion</h3>
+      <h3 className="text-2xl font-semibold text-black">Conclusion</h3>
       <p>
         Registering and verifying your account in an online casino is a
         straightforward process that unlocks the full potential of your gaming
@@ -283,7 +283,7 @@ export default function Blog9() {
       </p>
 
       <section>
-        <h3 className="text-3xl font-bold text-[#FFF4C2] mt-10 mb-4">FAQs</h3>
+        <h3 className="text-3xl font-bold text-black mt-10 mb-4">FAQs</h3>
         <div className="space-y-6">
           {faqs.map((faq, index) => (
             <div
@@ -296,9 +296,9 @@ export default function Blog9() {
               >
                 {faq.q}
                 {openIndex === index ? (
-                  <ChevronUp className="text-[#FFF4C2]" size={20} />
+                  <ChevronUp className="text-black" size={20} />
                 ) : (
-                  <ChevronDown className="text-[#FFF4C2]" size={20} />
+                  <ChevronDown className="text-black" size={20} />
                 )}
               </button>
 

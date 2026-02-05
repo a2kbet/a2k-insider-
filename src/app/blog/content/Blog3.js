@@ -35,8 +35,8 @@ export default function Blog3() {
   return (
     <>
       {/* Blog Content */}
-      <div className="bg-[#1a1b1b] text-white w-full min-h-screen md:px-12 py-5">
-        <article className="max-w-6xl mx-auto space-y-12 text-gray-300 text-lg md:text-xl leading-relaxed">
+      <div className=" text-white w-full min-h-screen md:px-12 py-5">
+        <article className="max-w-6xl mx-auto space-y-12 text-black text-lg md:text-xl leading-relaxed">
           {/* Intro */}
           <p>
             Online casino gaming has grown rapidly in India, and 2025 looks
@@ -62,7 +62,7 @@ export default function Blog3() {
 
           {/* 1. Royal Vegas */}
           <section>
-            <h2 className="text-3xl font-bold mb-2 text-[#FFF4C2]">
+            <h2 className="text-3xl font-bold mb-2 text-black">
               1. Royal Vegas Casino – Premium Gaming Experience
             </h2>
             <p>
@@ -71,7 +71,7 @@ export default function Blog3() {
               Microgaming, you’ll find everything from slots to live dealer
               tables.
             </p>
-            <ul className="list-disc list-inside space-y-1 text-gray-300">
+            <ul className="list-disc list-inside space-y-1 text-black">
               <li>
                 <strong>License:</strong> Malta Gaming Authority
               </li>
@@ -100,7 +100,7 @@ export default function Blog3() {
 
           {/* 2. LeoVegas */}
           <section>
-            <h2 className="text-3xl font-bold mb-2 text-[#FFF4C2]">
+            <h2 className="text-3xl font-bold mb-2 text-black">
               2. LeoVegas – The Mobile King
             </h2>
             <p>
@@ -108,7 +108,7 @@ export default function Blog3() {
               offers seamless gaming on Android and iOS devices, making it a
               favorite among Indian players who love to play on the go.
             </p>
-            <ul className="list-disc list-inside space-y-1 text-gray-300">
+            <ul className="list-disc list-inside space-y-1 text-black">
               <li>
                 <strong>License:</strong> UK Gambling Commission & Malta Gaming
                 Authority
@@ -126,7 +126,7 @@ export default function Blog3() {
 
           {/* 3. 22Bet */}
           <section>
-            <h2 className="text-3xl font-bold mb-2 text-[#FFF4C2]">
+            <h2 className="text-3xl font-bold mb-2 text-black">
               3. 22Bet Casino – Sports + Casino Combo
             </h2>
             <p>
@@ -134,7 +134,7 @@ export default function Blog3() {
               choice. It offers a blend of casino games and sports betting,
               including cricket and kabaddi – popular choices in India.
             </p>
-            <ul className="list-disc list-inside space-y-1 text-gray-300">
+            <ul className="list-disc list-inside space-y-1 text-black">
               <li>
                 <strong>License:</strong> Curacao eGaming
               </li>
@@ -151,7 +151,7 @@ export default function Blog3() {
 
           {/* 4. PureWin */}
           <section>
-            <h2 className="text-3xl font-bold mb-2 text-[#FFF4C2]">
+            <h2 className="text-3xl font-bold mb-2 text-black">
               4. PureWin Casino – Made for India
             </h2>
             <p>
@@ -159,7 +159,7 @@ export default function Blog3() {
               and India-specific games. It feels like it’s designed for the
               Indian market, with localized payment support and regional themes.
             </p>
-            <ul className="list-disc list-inside space-y-1 text-gray-300">
+            <ul className="list-disc list-inside space-y-1 text-black">
               <li>
                 <strong>License:</strong> Curacao eGaming
               </li>
@@ -176,7 +176,7 @@ export default function Blog3() {
 
           {/* 5. Betway */}
           <section>
-            <h2 className="text-3xl font-bold mb-2 text-[#FFF4C2]">
+            <h2 className="text-3xl font-bold mb-2 text-black">
               5. Betway Casino – Trusted International Brand
             </h2>
             <p>
@@ -201,7 +201,7 @@ export default function Blog3() {
               </a>{" "}
               under one platform.
             </p>
-            <ul className="list-disc list-inside space-y-1 text-gray-300">
+            <ul className="list-disc list-inside space-y-1 text-black">
               <li>
                 <strong>License:</strong> Malta Gaming Authority & UKGC
               </li>
@@ -218,7 +218,7 @@ export default function Blog3() {
 
           {/* Conclusion Section */}
           <section>
-            <h2 className="text-3xl font-bold mb-4 text-[#FFF4C2] border-b border-gray-700 pb-2">
+            <h2 className="text-3xl font-bold mb-4 text-black border-b border-gray-700 pb-2">
               Conclusion
             </h2>
             <p>
@@ -245,11 +245,11 @@ export default function Blog3() {
           </section>
 
           <section>
-            <h2 className="text-3xl font-bold mb-4 text-[#FFF4C2] border-b border-gray-700 pb-2">
+            <h2 className="text-3xl font-bold mb-4 text-black border-b border-gray-700 pb-2">
               FAQs
             </h2>
 
-            <div className="space-y-4 text-gray-300">
+            <div className="space-y-4 text-black">
               {faqs.map((faq, index) => (
                 <div key={index} className="border-b border-gray-700 pb-2">
                   {/* Question */}
@@ -261,9 +261,9 @@ export default function Blog3() {
                   >
                     <strong>{faq.q}</strong>
                     {openIndex === index ? (
-                      <ChevronUp className="text-[#FFF4C2]" size={20} />
+                      <ChevronUp className="text-black" size={20} />
                     ) : (
-                      <ChevronDown className="text-[#FFF4C2]" size={20} />
+                      <ChevronDown className="text-black" size={20} />
                     )}
                   </button>
 

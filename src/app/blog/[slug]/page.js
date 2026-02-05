@@ -226,7 +226,7 @@ export default async function BlogDetailPage({ params }) {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
 
-      <div className="min-h-screen bg-white text-black">
+      <div className="min-h-screen bg-gray-400 text-black">
         {/* Blog Banner */}
         <div className="relative w-screen left-1/2 right-1/2 -ml-[50.5vw] -mr-[50vw] h-[400px] md:h-[480px] overflow-hidden">
           <img
@@ -264,7 +264,7 @@ export default async function BlogDetailPage({ params }) {
                 <a
                   key={s.slug}
                   href={`/blog/${s.slug}`}
-                  className="block p-4 bg-white border border-black/10 rounded-xl hover:bg-black/5 transition"
+                  className="block p-4 bg-gray-300 border border-black/10 rounded-xl hover:bg-black/5 transition"
                 >
                   <img
                     src={s.img}

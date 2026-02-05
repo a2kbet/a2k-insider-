@@ -8,7 +8,7 @@ export default function Blog10() {
   const faqs = [
     {
       q: (
-        <p className="font-semibold text-white">
+        <p className="font-semibold text-black">
           1. How can I check if an online casino is safe?
         </p>
       ),
@@ -21,7 +21,7 @@ export default function Blog10() {
     },
     {
       q: (
-        <p className="font-semibold text-white">
+        <p className="font-semibold text-black">
           2. Why is licensing important in online casinos?
         </p>
       ),
@@ -34,7 +34,7 @@ export default function Blog10() {
     },
     {
       q: (
-        <p className="font-semibold text-white">
+        <p className="font-semibold text-black">
           3. Are bonuses safe to claim?
         </p>
       ),
@@ -47,7 +47,7 @@ export default function Blog10() {
     },
     {
       q: (
-        <p className="font-semibold text-white">
+        <p className="font-semibold text-black">
           4. What payment methods should I use in online casinos?
         </p>
       ),
@@ -60,7 +60,7 @@ export default function Blog10() {
     },
     {
       q: (
-        <p className="font-semibold text-white">
+        <p className="font-semibold text-black">
           5. How do I know if a platform is trustworthy?
         </p>
       ),
@@ -74,7 +74,7 @@ export default function Blog10() {
   ];
 
   return (
-    <div className="space-y-5 text-gray-300 leading-relaxed text-lg md:text-xl">
+    <div className="space-y-5 text-black leading-relaxed text-lg md:text-xl">
       <p>
         The world of online casinos is full of excitement, rewards, and endless
         entertainment. With advanced technology and the growing popularity of
@@ -88,7 +88,7 @@ export default function Blog10() {
         enjoying a secure and fun gaming experience.
       </p>
 
-      <h3 className="text-2xl font-semibold text-[#FFF4C2]">
+      <h3 className="text-2xl font-semibold text-black">
         1. Choose Licensed and Regulated Casinos
       </h3>
       <p>
@@ -107,7 +107,7 @@ export default function Blog10() {
         that your gameplay is not only fun but also safe.
       </p>
 
-      <h3 className="text-2xl font-semibold text-[#FFF4C2]">
+      <h3 className="text-2xl font-semibold text-black">
         2. Look for Strong Security Features
       </h3>
       <p>
@@ -117,7 +117,7 @@ export default function Blog10() {
         connection.
       </p>
 
-      <h3 className="text-2xl font-semibold text-[#FFF4C2]">
+      <h3 className="text-2xl font-semibold text-black">
         3. Read Reviews and Community Feedback
       </h3>
       <p>
@@ -127,7 +127,7 @@ export default function Blog10() {
         share their experiences, helping you make informed choices.
       </p>
 
-      <h3 className="text-2xl font-semibold text-[#FFF4C2]">
+      <h3 className="text-2xl font-semibold text-black">
         4. Prioritize Transparent Payment Options
       </h3>
       <p>
@@ -137,7 +137,7 @@ export default function Blog10() {
         accessible, it’s a strong sign of a legitimate platform.
       </p>
 
-      <h3 className="text-2xl font-semibold text-[#FFF4C2]">
+      <h3 className="text-2xl font-semibold text-black">
         5. Pay Attention to Responsible Gaming Tools
       </h3>
       <p>
@@ -147,7 +147,7 @@ export default function Blog10() {
         the experience more enjoyable.
       </p>
 
-      <h3 className="text-2xl font-semibold text-[#FFF4C2]">
+      <h3 className="text-2xl font-semibold text-black">
         6. Use Bonuses Wisely
       </h3>
       <p>
@@ -157,7 +157,7 @@ export default function Blog10() {
         avoid confusion.
       </p>
 
-      <h3 className="text-2xl font-semibold text-[#FFF4C2]">
+      <h3 className="text-2xl font-semibold text-black">
         7. Customer Support Availability
       </h3>
       <p>
@@ -166,7 +166,7 @@ export default function Blog10() {
         you are in good hands.
       </p>
 
-      <h3 className="text-2xl font-semibold text-[#FFF4C2]">
+      <h3 className="text-2xl font-semibold text-black">
         8. Trust Your Instincts
       </h3>
       <p>
@@ -183,7 +183,7 @@ export default function Blog10() {
         that ensures your focus remains on entertainment, not worry.
       </p>
 
-      <h3 className="text-2xl font-semibold text-[#FFF4C2]">Final Thoughts</h3>
+      <h3 className="text-2xl font-semibold text-black">Final Thoughts</h3>
       <p>
         Online casinos are designed to bring fun, thrill, and rewards right to
         your fingertips. By following the strategies above, you can confidently
@@ -209,7 +209,7 @@ export default function Blog10() {
       </p>
 
       <section>
-        <h3 className="text-3xl font-bold text-[#FFF4C2] mt-10 mb-4">FAQs</h3>
+        <h3 className="text-3xl font-bold text-black mt-10 mb-4">FAQs</h3>
         <div className="space-y-6">
           {faqs.map((faq, index) => (
             <div
@@ -222,14 +222,14 @@ export default function Blog10() {
               >
                 {faq.q}
                 {openIndex === index ? (
-                  <ChevronUp className="text-[#FFF4C2]" size={20} />
+                  <ChevronUp className="text-black" size={20} />
                 ) : (
-                  <ChevronDown className="text-[#FFF4C2]" size={20} />
+                  <ChevronDown className="text-black" size={20} />
                 )}
               </button>
 
               {openIndex === index && (
-                <div className="mt-2 text-gray-300">{faq.a}</div>
+                <div className="mt-2 text-black">{faq.a}</div>
               )}
             </div>
           ))}

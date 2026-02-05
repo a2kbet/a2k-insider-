@@ -29,7 +29,7 @@ export default function Blog12() {
   ];
 
   return (
-    <div className="space-y-5 text-gray-300 leading-relaxed text-lg md:text-xl">
+    <div className="space-y-5 text-black leading-relaxed text-lg md:text-xl">
       <p>
         Casino games have always been an exciting way to combine entertainment
         and strategy. Whether you’re new to gaming or already familiar with the
@@ -52,7 +52,7 @@ export default function Blog12() {
         responsibly while enjoying the thrill of gaming.
       </p>
 
-      <h3 className="text-2xl font-semibold text-[#FFF4C2]">
+      <h3 className="text-2xl font-semibold text-black">
         Why Learning Casino Game Rules Matters
       </h3>
       <ul className="list-disc ml-6 space-y-2">
@@ -68,10 +68,10 @@ export default function Blog12() {
         playing experience.
       </p>
 
-      <h3 className="text-2xl font-semibold text-[#FFF4C2]">
+      <h3 className="text-2xl font-semibold text-black">
         Popular Casino Game Categories and Their Rules
       </h3>
-      <h4 className="text-xl font-semibold text-[#FFF4C2]">1. Card Games</h4>
+      <h4 className="text-xl font-semibold text-black">1. Card Games</h4>
       <p>
         Card games are among the most loved options. They range from simple to
         advanced, and learning the rules helps you adapt quickly.
@@ -91,7 +91,7 @@ export default function Blog12() {
         </li>
       </ul>
 
-      <h4 className="text-xl font-semibold text-[#FFF4C2]">2. Table Games</h4>
+      <h4 className="text-xl font-semibold text-black">2. Table Games</h4>
       <p>Table games are easy to follow once you know their structure.</p>
       <ul className="list-disc ml-6 space-y-2">
         <li>
@@ -104,7 +104,7 @@ export default function Blog12() {
         </li>
       </ul>
 
-      <h4 className="text-xl font-semibold text-[#FFF4C2]">3. Slot Games</h4>
+      <h4 className="text-xl font-semibold text-black">3. Slot Games</h4>
       <p>
         <a
           href="https://www.a2k.bet/slotgame"
@@ -120,7 +120,7 @@ export default function Blog12() {
         structures.
       </p>
 
-      <h4 className="text-xl font-semibold text-[#FFF4C2]">
+      <h4 className="text-xl font-semibold text-black">
         4. Live Dealer Games
       </h4>
       <p>
@@ -128,7 +128,7 @@ export default function Blog12() {
         The rules are the same as traditional games, but played with live hosts.
       </p>
 
-      <h3 className="text-2xl font-semibold text-[#FFF4C2]">
+      <h3 className="text-2xl font-semibold text-black">
         Strategies for Playing by the Rules
       </h3>
       <ul className="list-disc ml-6 space-y-2">
@@ -155,7 +155,7 @@ export default function Blog12() {
         </li>
       </ul>
 
-      <h3 className="text-2xl font-semibold text-[#FFF4C2]">
+      <h3 className="text-2xl font-semibold text-black">
         Motivating Mindset for Players
       </h3>
       <p>
@@ -169,7 +169,7 @@ export default function Blog12() {
         casino games anytime, anywhere.
       </p>
 
-      <h3 className="text-2xl font-semibold text-[#FFF4C2]">Conclusion</h3>
+      <h3 className="text-2xl font-semibold text-black">Conclusion</h3>
       <p>
         Casino game rules are not just instructions—they’re the pathway to a
         confident and enjoyable gaming experience. Whether it’s poker, roulette,
@@ -194,7 +194,7 @@ export default function Blog12() {
         .
       </p>
       <section>
-        <h3 className="text-3xl font-bold text-[#FFF4C2] mt-10 mb-4">FAQs</h3>
+        <h3 className="text-3xl font-bold text-black mt-10 mb-4">FAQs</h3>
         <div className="space-y-6">
           {faqs.map((faq, index) => (
             <div
@@ -205,16 +205,16 @@ export default function Blog12() {
                 onClick={() => setOpenIndex(openIndex === index ? null : index)}
                 className="flex justify-between items-center w-full text-left focus:outline-none"
               >
-                <span className="font-semibold text-white">{faq.q}</span>
+                <span className="font-semibold text-black">{faq.q}</span>
                 {openIndex === index ? (
-                  <ChevronUp className="text-[#FFF4C2]" size={20} />
+                  <ChevronUp className="text-black" size={20} />
                 ) : (
-                  <ChevronDown className="text-[#FFF4C2]" size={20} />
+                  <ChevronDown className="text-black" size={20} />
                 )}
               </button>
 
               {openIndex === index && (
-                <div className="mt-2 text-gray-300">{faq.a}</div>
+                <div className="mt-2 text-black">{faq.a}</div>
               )}
             </div>
           ))}

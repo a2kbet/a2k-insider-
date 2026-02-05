@@ -8,7 +8,7 @@ export default function Blog8() {
   const faqs = [
     {
       q: (
-        <p className="font-semibold text-white">
+        <p className="font-semibold text-black">
           1. Which strategy works best in Roulette?
         </p>
       ),
@@ -21,7 +21,7 @@ export default function Blog8() {
     },
     {
       q: (
-        <p className="font-semibold text-white">
+        <p className="font-semibold text-black">
           2. Is Baccarat purely luck-based?
         </p>
       ),
@@ -34,7 +34,7 @@ export default function Blog8() {
     },
     {
       q: (
-        <p className="font-semibold text-white">
+        <p className="font-semibold text-black">
           3. Can I really win money playing Dragon Tiger?
         </p>
       ),
@@ -47,7 +47,7 @@ export default function Blog8() {
     },
     {
       q: (
-        <p className="font-semibold text-white">
+        <p className="font-semibold text-black">
           4. Are these strategies beginner-friendly?
         </p>
       ),
@@ -60,7 +60,7 @@ export default function Blog8() {
     },
     {
       q: (
-        <p className="font-semibold text-white">
+        <p className="font-semibold text-black">
           5. Where can I play these games online?
         </p>
       ),
@@ -81,7 +81,7 @@ export default function Blog8() {
     },
   ];
   return (
-    <div className="space-y-5 text-gray-300 leading-relaxed text-lg md:text-xl">
+    <div className="space-y-5 text-black leading-relaxed text-lg md:text-xl">
       <p>
         Online casino games have transformed the way people experience
         entertainment. Among the most exciting titles are Roulette, Baccarat,
@@ -94,7 +94,7 @@ export default function Blog8() {
         the fun alive.
       </p>
 
-      <h3 className="text-2xl font-semibold text-[#FFF4C2]">
+      <h3 className="text-2xl font-semibold text-black">
         1. Mastering Roulette Strategies
       </h3>
       <p>
@@ -144,7 +144,7 @@ export default function Blog8() {
         where winning strategies meet thrilling gameplay.
       </p>
 
-      <h3 className="text-2xl font-semibold text-[#FFF4C2]">
+      <h3 className="text-2xl font-semibold text-black">
         2. Baccarat Winning Approaches
       </h3>
       <p>
@@ -192,7 +192,7 @@ export default function Blog8() {
         and explore the strategies that seasoned players use to win.
       </p>
 
-      <h3 className="text-2xl font-semibold text-[#FFF4C2]">
+      <h3 className="text-2xl font-semibold text-black">
         3. Dragon Tiger Strategy Tips
       </h3>
       <p>
@@ -227,7 +227,7 @@ export default function Blog8() {
         quick thrill, but don’t rush your bankroll.
       </p>
 
-      <h3 className="text-2xl font-semibold text-[#FFF4C2]">
+      <h3 className="text-2xl font-semibold text-black">
         4. Universal Tips for All Three Games
       </h3>
       <ul className="list-disc pl-6 space-y-2">
@@ -249,7 +249,7 @@ export default function Blog8() {
         </li>
       </ul>
 
-      <h3 className="text-2xl font-semibold text-[#FFF4C2]">Conclusion</h3>
+      <h3 className="text-2xl font-semibold text-black">Conclusion</h3>
       <p>
         Roulette, Baccarat, and Dragon Tiger are more than just games of
         chance—they’re about strategy, patience, and enjoying the thrill
@@ -273,7 +273,7 @@ export default function Blog8() {
       </p>
 
       <div>
-        <h3 className="text-3xl font-bold text-[#FFF4C2] mt-10 mb-4">FAQs</h3>
+        <h3 className="text-3xl font-bold text-black mt-10 mb-4">FAQs</h3>
         <div className="space-y-6">
           {faqs.map((faq, index) => (
             <div
@@ -286,14 +286,14 @@ export default function Blog8() {
               >
                 {faq.q}
                 {openIndex === index ? (
-                  <ChevronUp className="text-[#FFF4C2]" size={20} />
+                  <ChevronUp className="text-black" size={20} />
                 ) : (
-                  <ChevronDown className="text-[#FFF4C2]" size={20} />
+                  <ChevronDown className="text-black" size={20} />
                 )}
               </button>
 
               {openIndex === index && (
-                <div className="mt-2 text-gray-300">{faq.a}</div>
+                <div className="mt-2 text-black">{faq.a}</div>
               )}
             </div>
           ))}

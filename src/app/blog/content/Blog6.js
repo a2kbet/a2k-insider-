@@ -67,8 +67,8 @@ export default function Blog6() {
   return (
     <>
       {/* ✅ Blog Content (unchanged) */}
-      <div className="bg-[#1a1b1b] text-white w-full min-h-screen md:px-12 py-5">
-        <article className="max-w-6xl mx-auto space-y-12 text-gray-300 text-lg md:text-xl leading-relaxed">
+      <div className=" text-white w-full min-h-screen md:px-12 py-5">
+        <article className="max-w-6xl mx-auto space-y-12 text-black text-lg md:text-xl leading-relaxed">
           {/* Intro */}
           <p>
             Online casino games are constantly evolving, and one of the most
@@ -91,7 +91,7 @@ export default function Blog6() {
             step. By the end, you’ll not only understand the basics but also
             know strategies and tips to maximize your gaming experience.
           </p>
-          <p className="text-[#FFD700] font-semibold">
+          <p className="text-black font-semibold">
             👉 Ready to try Aviator? Play{" "}
             <a
               href="https://www.a2k.bet/?pid=topvip&utm_source=a2kfun&utm_medium=blog&utm_campaign=internal_link"
@@ -106,7 +106,7 @@ export default function Blog6() {
 
           {/* What is Aviator */}
           <section>
-            <h2 className="text-3xl font-bold mb-4 text-[#FFF4C2] border-b border-gray-700 pb-2">
+            <h2 className="text-3xl font-bold mb-4 text-black border-b border-gray-700 pb-2">
               🎮 What is the Aviator Game?
             </h2>
             <p>
@@ -115,7 +115,7 @@ export default function Blog6() {
               multiplier increases. Players place bets before the plane takes
               off and try to cash out at the right time.
             </p>
-            <ul className="list-disc list-inside space-y-2 text-gray-300">
+            <ul className="list-disc list-inside space-y-2 text-black">
               <li>
                 If you cash out before the plane flies away, you win based on
                 the multiplier shown.
@@ -133,10 +133,10 @@ export default function Blog6() {
 
           {/* How to Play */}
           <section>
-            <h2 className="text-3xl font-bold mb-4 text-[#FFF4C2] border-b border-gray-700 pb-2">
+            <h2 className="text-3xl font-bold mb-4 text-black border-b border-gray-700 pb-2">
               ✈️ How to Play Aviator Game Online
             </h2>
-            <ol className="list-decimal list-inside space-y-3 text-gray-300">
+            <ol className="list-decimal list-inside space-y-3 text-black">
               <li>
                 <strong>Register on a Trusted Casino</strong>
                 <br />
@@ -191,10 +191,10 @@ export default function Blog6() {
 
           {/* Tips & Strategies */}
           <section>
-            <h2 className="text-3xl font-bold mb-4 text-[#FFF4C2] border-b border-gray-700 pb-2">
+            <h2 className="text-3xl font-bold mb-4 text-black border-b border-gray-700 pb-2">
               💡 Tips & Strategies for Winning Aviator
             </h2>
-            <ul className="list-disc list-inside space-y-2 text-gray-300">
+            <ul className="list-disc list-inside space-y-2 text-black">
               <li>
                 Start Small – Begin with smaller bets to understand the game
                 flow.
@@ -228,10 +228,10 @@ export default function Blog6() {
 
           {/* Why Play Aviator at A2K */}
           <section>
-            <h2 className="text-3xl font-bold mb-4 text-[#FFF4C2] border-b border-gray-700 pb-2">
+            <h2 className="text-3xl font-bold mb-4 text-black border-b border-gray-700 pb-2">
               Why Play Aviator at A2K.Bet?
             </h2>
-            <ul className="list-disc list-inside space-y-2 text-gray-300">
+            <ul className="list-disc list-inside space-y-2 text-black">
               <li>User-friendly interface for smooth gameplay</li>
               <li>Safe & secure transactions</li>
               <li>24/7 availability</li>
@@ -242,10 +242,10 @@ export default function Blog6() {
 
           {/* Benefits */}
           <section>
-            <h2 className="text-3xl font-bold mb-4 text-[#FFF4C2] border-b border-gray-700 pb-2">
+            <h2 className="text-3xl font-bold mb-4 text-black border-b border-gray-700 pb-2">
               🔥 Benefits of Playing Aviator
             </h2>
-            <ul className="list-disc list-inside space-y-2 text-gray-300">
+            <ul className="list-disc list-inside space-y-2 text-black">
               <li>
                 Quick rounds: Games last only seconds, so excitement is nonstop.
               </li>
@@ -266,7 +266,7 @@ export default function Blog6() {
 
           {/* Final Thoughts */}
           <section>
-            <h2 className="text-3xl font-bold mb-4 text-[#FFF4C2] border-b border-gray-700 pb-2">
+            <h2 className="text-3xl font-bold mb-4 text-black border-b border-gray-700 pb-2">
               Final Thoughts
             </h2>
             <p>
@@ -291,11 +291,11 @@ export default function Blog6() {
           </section>
 
           <section>
-            <h2 className="text-3xl font-bold mb-4 text-[#FFF4C2] border-b border-gray-700 pb-2">
+            <h2 className="text-3xl font-bold mb-4 text-black border-b border-gray-700 pb-2">
               ❓ FAQs About Aviator Game
             </h2>
 
-            <div className="space-y-4 text-gray-300">
+            <div className="space-y-4 text-black">
               {faqs.map((faq, index) => (
                 <div key={index} className="border-b border-gray-700 pb-2">
                   {/* Question */}
@@ -307,9 +307,9 @@ export default function Blog6() {
                   >
                     <strong>{faq.q}</strong>
                     {openIndex === index ? (
-                      <ChevronUp className="text-[#FFF4C2]" size={20} />
+                      <ChevronUp className="text-black" size={20} />
                     ) : (
-                      <ChevronDown className="text-[#FFF4C2]" size={20} />
+                      <ChevronDown className="text-black" size={20} />
                     )}
                   </button>
 
