@@ -3,29 +3,6 @@
 export default function Blog60() {
   return (
     <div className="max-w-4xl mx-auto px-4 py-10 text-gray-900 leading-7">
-      <p className="text-sm text-gray-600 mb-1">
-        <strong>Meta Title (60 Characters)</strong>
-      </p>
-      <p className="mb-4">
-        How to Play Sic Bo Online on a Trusted Gaming Platform
-      </p>
-
-      <p className="text-sm text-gray-600 mb-1">
-        <strong>Meta Description (160 Characters)</strong>
-      </p>
-      <p className="mb-4">
-        Learn how to play Sic Bo online with simple rules, smooth gameplay, and
-        a secure experience designed for enjoyable and responsible casino
-        entertainment.
-      </p>
-
-      <p className="text-sm text-gray-600 mb-1">
-        <strong>SEO-Friendly URL</strong>
-      </p>
-      <p className="mb-8 break-words">
-        https://a2k.fun/blog/how-to-play-sic-bo-online
-      </p>
-
       <p className="mb-4">
         Sic Bo is one of the most exciting and visually engaging dice-based
         casino games available today. With its simple structure, fast-paced

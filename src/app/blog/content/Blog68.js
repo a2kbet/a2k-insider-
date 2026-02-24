@@ -2,30 +2,7 @@
 
 export default function Blog68() {
   return (
-    <div className="max-w-4xl mx-auto px-4 py-10 text-gray-900 leading-7">
-      <p className="text-sm text-gray-600 mb-1">
-        <strong>Meta Title (60 Characters)</strong>
-      </p>
-      <p className="mb-4">
-        Tips to Enjoy Big Six Wheel on Trusted Gambling Platforms
-      </p>
-
-      <p className="text-sm text-gray-600 mb-1">
-        <strong>Meta Description (160 Characters)</strong>
-      </p>
-      <p className="mb-4">
-        Discover simple tips to enjoy Big Six Wheel online with confidence,
-        balance, and fun while choosing the right platform for a smooth gaming
-        experience.
-      </p>
-
-      <p className="text-sm text-gray-600 mb-1">
-        <strong>SEO-Friendly URL</strong>
-      </p>
-      <p className="mb-8 break-words">
-        https://a2k.fun/blog/tips-to-enjoy-big-six-wheel-online
-      </p>
-
+    <div className="max-w-4xl mx-auto px-4 py-10 text-black leading-7">
       <p className="mb-4">
         Big Six Wheel is one of the most visually engaging and
         easy-to-understand casino games available today. Its bright layout,

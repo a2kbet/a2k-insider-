@@ -3,27 +3,7 @@
 export default function Blog65() {
   return (
     <div className="max-w-4xl mx-auto px-4 py-10 text-gray-900 leading-7">
-      <p className="text-sm text-gray-600 mb-1">
-        <strong>Meta Title (60 Characters)</strong>
-      </p>
-      <p className="mb-4">Why Variety Matters in Online Casino Gaming</p>
-
-      <p className="text-sm text-gray-600 mb-1">
-        <strong>Meta Description (160 Characters)</strong>
-      </p>
-      <p className="mb-4">
-        Learn why variety in online casino gaming improves enjoyment, keeps
-        gameplay fresh, and helps players discover experiences that suit their
-        style.
-      </p>
-
-      <p className="text-sm text-gray-600 mb-1">
-        <strong>SEO-Friendly URL</strong>
-      </p>
-      <p className="mb-8 break-words">
-        https://a2k.fun/blog/why-variety-matters-in-online-casino-gaming
-      </p>
-
+     
       <p className="mb-4">
         Variety plays a crucial role in creating an enjoyable and long-lasting
         digital gaming experience. In the evolving world of casino-style
