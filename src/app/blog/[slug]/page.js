@@ -50,12 +50,24 @@ import Blog47 from "../content/Blog47";
 import Blog48 from "../content/Blog48";
 import Blog49 from "../content/Blog49";
 import Blog50 from "../content/Blog50";
-import Blog51 from "./../content/Blog51";
-import Blog52 from "./../content/Blog52";
+import Blog51 from "../content/Blog51";
+import Blog52 from "../content/Blog52";
 import Blog53 from "../content/Blog53";
 import Blog54 from "../content/Blog54";
 import Blog55 from "../content/Blog55";
 import Blog56 from "../content/Blog56";
+import Blog57 from "../content/Blog57";
+import Blog58 from "../content/Blog58";
+import Blog59 from "../content/Blog59";
+import Blog60 from "../content/Blog60";
+import Blog61 from "../content/Blog61";
+import Blog62 from "../content/Blog62";
+import Blog63 from "../content/Blog63";
+import Blog64 from "../content/Blog64";
+import Blog65 from "../content/Blog65";
+import Blog66 from "../content/Blog66";
+import Blog67 from "../content/Blog67";
+import Blog68 from "../content/Blog68";
 
 const componentsMap = {
   "is-online-gambling-legal-in-india": Blog1,
@@ -114,6 +126,18 @@ const componentsMap = {
   "desi-classics-to-live-dealers-teen-patti-andar-bahar-guide": Blog54,
   "complete-cricket-betting-blueprint-wbbl-knockout-npl-predictions": Blog55,
   "how-to-bet-on-npl-matches-expert-tips-todays-picks": Blog56,
+  "which-casino-licenses-are-valid-for-indian-players-complete-guide": Blog57,
+  "tips-to-enjoy-big-six-wheel-online": Blog58,
+  "live-blackjack-vs-onhow-to-play-sic-bo-onlineline-blackjack": Blog59,
+  "how-to-play-sic-bo-online": Blog60,
+  "why-poker-is-a-skill-based-casino-game": Blog61,
+  "texas-holdem-online-beginners-guide": Blog62,
+  "why-megaball-is-exciting-casino-game": Blog63,
+  "why-numbers-games-are-popular": Blog64,
+  "why-variety-matters-in-online-casino-gaming": Blog65,
+  "how-to-choose-the-right-casino-game": Blog66,
+  "benefits-of-playing-multiple-games-one-platform": Blog67,
+  "tips-to-enjoy-big-six-wheel-online": Blog68,
 };
 
 export async function generateStaticParams() {
@@ -226,7 +250,7 @@ export default async function BlogDetailPage({ params }) {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
 
-      <div className="min-h-screen bg-gray-400 text-black">
+      <div className="min-h-screen bg-white text-black">
         {/* Blog Banner */}
         <div className="relative w-screen left-1/2 right-1/2 -ml-[50.5vw] -mr-[50vw] h-[400px] md:h-[480px] overflow-hidden">
           <img
@@ -264,7 +288,7 @@ export default async function BlogDetailPage({ params }) {
                 <a
                   key={s.slug}
                   href={`/blog/${s.slug}`}
-                  className="block p-4 bg-gray-300 border border-black/10 rounded-xl hover:bg-black/5 transition"
+                  className="block p-4 bg-gray-200 border border-black/10 rounded-xl hover:bg-black/5 transition"
                 >
                   <img
                     src={s.img}
