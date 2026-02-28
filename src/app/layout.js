@@ -7,9 +7,11 @@ export const metadata = {
   title: "India’s #1 Online Casino & Sports Betting Platform | A2k.fun",
   description:
     "Join India’s #1 Online Casino & Sports Betting platform. Enjoy exciting games, real rewards, and fast payouts. Rule the table with trusted gameplay today!",
+
   verification: {
     google: "441qDOCfT_C0eAjK5KiDutC7fkAefZzgOmSVjmtEfTo",
   },
+
   alternates: {
     canonical: "https://a2k.fun/",
   },
@@ -19,10 +21,6 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <link rel="icon" type="image/png" href="/images/CROPLOGO.png" />
-        {/* Canonical Tag */}
-        {/* <link rel="canonical" href="https://a2k.fun/" /> */}
-
         {/* Google Site Verification */}
         <meta
           name="google-site-verification"
@@ -30,22 +28,20 @@ export default function RootLayout({ children }) {
         />
 
         {/* Google Analytics */}
-        <script
-          async
+        <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-JNYZSTL44Y"
-        ></script>
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-              gtag('config', 'G-JNYZSTL44Y');
-            `,
-          }}
+          strategy="afterInteractive"
         />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-JNYZSTL44Y');
+          `}
+        </Script>
 
-        {/*Google Tag Manager Script */}
+        {/* Google Tag Manager */}
         <Script
           id="google-tag-manager"
           strategy="afterInteractive"
@@ -60,7 +56,7 @@ export default function RootLayout({ children }) {
       </head>
 
       <body className="bg-black text-white">
-        {/* ✅ GTM <noscript> fallback */}
+        {/* GTM noscript fallback */}
         <noscript>
           <iframe
             src="https://www.googletagmanager.com/ns.html?id=GTM-MBX9TJKD"
@@ -69,6 +65,7 @@ export default function RootLayout({ children }) {
             style={{ display: "none", visibility: "hidden" }}
           ></iframe>
         </noscript>
+
         <Navbar />
         <main className="pt-20 md:pt-30">{children}</main>
         <Footer />

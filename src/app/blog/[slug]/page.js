@@ -68,6 +68,8 @@ import Blog65 from "../content/Blog65";
 import Blog66 from "../content/Blog66";
 import Blog67 from "../content/Blog67";
 import Blog68 from "../content/Blog68";
+import Blog69 from "../content/Blog69";
+import Blog70 from "../content/Blog70";
 
 const componentsMap = {
   "is-online-gambling-legal-in-india": Blog1,
@@ -138,6 +140,8 @@ const componentsMap = {
   "how-to-choose-the-right-casino-game": Blog66,
   "benefits-of-playing-multiple-games-one-platform": Blog67,
   "tips-to-enjoy-big-six-wheel-online": Blog68,
+  "west-indies-t20-world-cup-2026-qualification-status": Blog69,
+  "india-vs-west-indies-bet-online-best-platforms-guide": Blog70,
 };
 
 export async function generateStaticParams() {

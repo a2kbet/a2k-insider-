@@ -2044,6 +2044,82 @@ const blogData = [
       },
     ],
   },
+  {
+    slug: "west-indies-t20-world-cup-2026-qualification-status",
+    title: "West Indies T20 World Cup 2026 Qualification Status",
+    description:
+      "Is West Indies out of the T20 World Cup 2026? Get the latest qualification updates, scenarios, points table insights, and chances of making it through.",
+    img: "/images/blog69.webp",
+    url: "https://a2k.fun/blog/west-indies-t20-world-cup-2026-qualification-status",
+    faqs: [
+      {
+        q: "Is West Indies officially out of the T20 World Cup 2026?",
+        a: "West Indies are only officially out if they are mathematically eliminated based on tournament standings or an ICC confirmation. Until then, qualification remains possible.",
+      },
+      {
+        q: "How does West Indies qualify for the T20 World Cup?",
+        a: "They can qualify either through automatic ranking spots, host nation privilege (if applicable), or by progressing through regional qualification tournaments.",
+      },
+      {
+        q: "What happens if West Indies lose a crucial match?",
+        a: "One loss does not necessarily eliminate them. It depends on points, net run rate, and remaining matches in the group.",
+      },
+      {
+        q: "Can net run rate affect West Indies’ chances?",
+        a: "Yes. In tightly contested groups, net run rate often determines which teams advance when points are equal.",
+      },
+      {
+        q: "Has West Indies ever struggled to qualify before?",
+        a: "Yes, in recent tournaments they have faced tougher qualification paths. However, they have also demonstrated resilience in high-pressure scenarios.",
+      },
+      {
+        q: "Why is T20 qualification more competitive now?",
+        a: "More nations are investing in T20 cricket, Associate teams have improved, and ICC has expanded opportunities, making qualification battles more intense.",
+      },
+      {
+        q: "What are West Indies’ strengths in T20 cricket?",
+        a: "Their traditional strengths include explosive batting, experienced T20 players, strong all-rounders, and big-match temperament.",
+      },
+    ],
+  },
+  {
+    slug: "india-vs-west-indies-bet-online-best-platforms-guide",
+    title: "India vs West Indies Bet Online – Best Platforms Guide",
+    description:
+      "Looking to bet on India vs West Indies? Discover the best online betting platforms, latest odds, legal options in India, and safe wagering tips.",
+    img: "/images/blog70.webp",
+    url: "https://a2k.fun/blog/india-vs-west-indies-bet-online-best-platforms-guide",
+    faqs: [
+      {
+        q: "Is it legal to bet on India vs West Indies matches online?",
+        a: "Legality depends on your country or state laws. Always check local regulations before signing up on a betting platform.",
+      },
+      {
+        q: "What is the safest way to bet online?",
+        a: "Choose licensed and reputable platforms with secure payment gateways and transparent policies.",
+      },
+      {
+        q: "Can I place bets during the match?",
+        a: "Yes, most platforms offer live or in-play betting where odds change as the match progresses.",
+      },
+      {
+        q: "What is the minimum amount required to start betting?",
+        a: "This varies by platform. Some sites allow you to start with very small amounts.",
+      },
+      {
+        q: "Are cricket betting odds fixed?",
+        a: "No, odds fluctuate based on match conditions, team news, and betting activity.",
+      },
+      {
+        q: "How can beginners improve their betting strategy?",
+        a: "Study team form, understand pitch reports, track player performances, and start with simple markets like match winner bets.",
+      },
+      {
+        q: "Is online cricket betting profitable?",
+        a: "It can be, but it carries risk. Betting should always be approached as entertainment, not a guaranteed source of income.",
+      },
+    ],
+  },
 ];
 
 export default blogData;
