@@ -2120,6 +2120,24 @@ const blogData = [
       },
     ],
   },
+  {
+    slug: "smart-wbbl-betting-strategies",
+    title: "Smart Betting Strategies for the Women's Big Bash League",
+    description:
+      "Learn smart betting strategies for the Women's Big Bash League. Discover key tips, stats analysis, and betting markets to make more informed WBBL wagers.",
+    img: "/images/blog71.avif",
+    url: "https://a2k.fun/blog/smart-wbbl-betting-strategies/",
+    faqs: [],
+  },
+  {
+    slug: "wbbl-betting-secrets-pro-bettors",
+    title: "WBBL Betting Secrets: What Pro Bettors Really Look For",
+    description:
+      "Discover WBBL betting secrets used by experienced bettors. Learn how to analyze teams, players, venues, and odds to make smarter bets in the Women’s Big Bash League.",
+    img: "/images/blog72.jpg",
+    url: "https://a2k.fun/wbbl-betting-secrets-pro-bettors/",
+    faqs: [],
+  },
 ];
 
 export default blogData;
