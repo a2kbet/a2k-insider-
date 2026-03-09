@@ -2138,6 +2138,24 @@ const blogData = [
     url: "https://a2k.fun/wbbl-betting-secrets-pro-bettors/",
     faqs: [],
   },
+  {
+    slug: "prediction-markets-vs-sportsbooks-betting-guide",
+    title: "Prediction Markets vs Sportsbooks: Where to Bet in 2026",
+    description:
+      "Learn the differences between prediction markets, sportsbooks, and betting exchanges. Compare pricing, risks, and features to choose the best betting option in 2026.",
+    img: "/images/blog73.webp",
+    url: "https://a2k.fun/prediction-markets-vs-sportsbooks-betting-guide/",
+    faqs: [],
+  },
+  {
+    slug: "blackjack-split-strategy-guide",
+    title: "Blackjack Split Strategy: Rules and When to Split",
+    description:
+      "Learn blackjack split rules, simple strategies, and when splitting is the best move. Understand pairs, table rules, and common mistakes to improve your play.",
+    img: "/images/blog74.png",
+    url: "https://a2k.fun/blackjack-split-strategy-guide/",
+    faqs: [],
+  },
 ];
 
 export default blogData;

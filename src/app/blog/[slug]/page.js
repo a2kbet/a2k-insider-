@@ -72,6 +72,8 @@ import Blog69 from "../content/Blog69";
 import Blog70 from "../content/Blog70";
 import Blog71 from "../content/Blog71";
 import Blog72 from "../content/Blog72";
+import Blog73 from "../content/Blog73";
+import Blog74 from "../content/Blog74";
 
 const componentsMap = {
   "is-online-gambling-legal-in-india": Blog1,
@@ -146,6 +148,8 @@ const componentsMap = {
   "india-vs-west-indies-bet-online-best-platforms-guide": Blog70,
   "smart-wbbl-betting-strategies": Blog71,
   "wbbl-betting-secrets-pro-bettors": Blog72,
+  "prediction-markets-vs-sportsbooks-betting-guide": Blog73,
+  "blackjack-split-strategy-guide": Blog74,
 };
 
 export async function generateStaticParams() {
