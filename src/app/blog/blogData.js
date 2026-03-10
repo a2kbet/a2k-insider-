@@ -2135,7 +2135,7 @@ const blogData = [
     description:
       "Discover WBBL betting secrets used by experienced bettors. Learn how to analyze teams, players, venues, and odds to make smarter bets in the Women’s Big Bash League.",
     img: "/images/blog72.jpg",
-    url: "https://a2k.fun/wbbl-betting-secrets-pro-bettors/",
+    url: "https://a2k.fun/blog/wbbl-betting-secrets-pro-bettors/",
     faqs: [],
   },
   {
@@ -2144,7 +2144,7 @@ const blogData = [
     description:
       "Learn the differences between prediction markets, sportsbooks, and betting exchanges. Compare pricing, risks, and features to choose the best betting option in 2026.",
     img: "/images/blog73.webp",
-    url: "https://a2k.fun/prediction-markets-vs-sportsbooks-betting-guide/",
+    url: "https://a2k.fun/blog/prediction-markets-vs-sportsbooks-betting-guide/",
     faqs: [],
   },
   {
@@ -2153,7 +2153,34 @@ const blogData = [
     description:
       "Learn blackjack split rules, simple strategies, and when splitting is the best move. Understand pairs, table rules, and common mistakes to improve your play.",
     img: "/images/blog74.png",
-    url: "https://a2k.fun/blackjack-split-strategy-guide/",
+    url: "https://a2k.fun/blog/blackjack-split-strategy-guide/",
+    faqs: [],
+  },
+  {
+    slug: "bubble-craps-strategy",
+    title: "Bubble Craps Strategy: Smart Betting Tips for Big Wins",
+    description:
+      "Master the Bubble Craps strategy with our easy guide. Learn the best low-risk bets, how to use Odds, and bankroll tips to beat the house edge today.",
+    img: "/images/blog75.jpg",
+    url: "https://a2k.fun/blog/bubble-craps-strategy",
+    faqs: [],
+  },
+  {
+    slug: "sportsbooks-vs-predictions",
+    title: "Sportsbooks vs. Prediction Markets: Best Ways to Bet in 2026",
+    description:
+      "Compare sportsbooks, betting exchanges, and prediction markets. Learn about fees, legal shifts, and how to find the best odds for sports and world events.",
+    img: "/images/blog76.jpg",
+    url: "https://a2k.fun/blog/sportsbooks-vs-predictions",
+    faqs: [],
+  },
+  {
+    slug: "how-prediction-markets-work",
+    title: "How Do Prediction Markets Work? Simple Guide for Beginners",
+    description:
+      "Learn how prediction markets turn news and sports into tradable contracts. Understand binary outcomes, implied probability, and how to trade event outcomes.",
+    img: "/images/blog77.png",
+    url: "https://a2k.fun/blog/how-prediction-markets-work",
     faqs: [],
   },
 ];
